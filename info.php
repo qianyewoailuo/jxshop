@@ -1,3 +1,4 @@
 <?php
+// hello world
 phpinfo();
 ?>
