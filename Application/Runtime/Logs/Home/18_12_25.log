@@ -1,0 +1,898 @@
+[ 2018-12-25T17:01:24+08:00 ] 127.0.0.1 /favicon.ico
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000018s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000546s ]
+
+[ 2018-12-25T17:03:04+08:00 ] 127.0.0.1 /
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000597s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000509s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000546s ]
+SQL: SELECT * FROM `jx_category`  [ RunTime:0.1758s ]
+NOTIC: [2048] Declaration of Admin\Model\GoodsModel::_after_insert() should be compatible with Think\Model::_after_insert($data, $options) F:\wamp\ThinkPHP_Project\jxshop\Application\Admin\Model\GoodsModel.class.php 第 452 行.
+SQL: SELECT * FROM `jx_goods` WHERE ( is_sale=1 AND is_hot=1 ) ORDER BY id desc LIMIT 5   [ RunTime:0.1088s ]
+SQL: SELECT * FROM `jx_goods` WHERE ( is_sale=1 AND is_rec=1 ) ORDER BY id desc LIMIT 5   [ RunTime:0.0004s ]
+SQL: SELECT * FROM `jx_goods` WHERE ( is_sale=1 AND is_new=1 ) ORDER BY id desc LIMIT 5   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `jx_goods` WHERE ( is_sale=1 AND cx_price>0 AND start<1545728583 AND end>1545728583 ) LIMIT 5   [ RunTime:0.0004s ]
+SQL: SELECT * FROM `jx_category` WHERE ( parent_id=0 )  [ RunTime:0.0003s ]
+SQL: SELECT * FROM `jx_category` WHERE ( parent_id=1 )  [ RunTime:0.0002s ]
+SQL: SELECT * FROM `jx_category` WHERE ( isrec=1 AND parent_id=1 )  [ RunTime:0.0002s ]
+SQL: SELECT * FROM `jx_category`  [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `jx_goods` [ RunTime:0.0434s ]
+SQL: SELECT * FROM `jx_goods` WHERE ( is_sale=1 AND cate_id in (2,5,4,6,25,17) ) LIMIT 8   [ RunTime:0.0005s ]
+SQL: SELECT * FROM `jx_category`  [ RunTime:0.0003s ]
+SQL: SELECT * FROM `jx_goods` WHERE ( is_sale=1 AND cate_id in (19,20,18) ) LIMIT 8   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `jx_category` WHERE ( parent_id=8 )  [ RunTime:0.0002s ]
+SQL: SELECT * FROM `jx_category` WHERE ( isrec=1 AND parent_id=8 )  [ RunTime:0.0002s ]
+SQL: SELECT * FROM `jx_category`  [ RunTime:0.0002s ]
+SQL: SELECT * FROM `jx_goods` WHERE ( is_sale=1 AND cate_id in (7,9,11,12) ) LIMIT 8   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `jx_category`  [ RunTime:0.0002s ]
+SQL: SELECT * FROM `jx_goods` WHERE ( is_sale=1 AND cate_id in (26,13) ) LIMIT 8   [ RunTime:0.0006s ]
+SQL: SELECT * FROM `jx_category`  [ RunTime:0.0004s ]
+SQL: SELECT * FROM `jx_goods` WHERE ( is_sale=1 AND cate_id in (27,28,14) ) LIMIT 8   [ RunTime:0.0004s ]
+SQL: SELECT * FROM `jx_category` WHERE ( parent_id=10 )  [ RunTime:0.0002s ]
+SQL: SELECT * FROM `jx_category` WHERE ( isrec=1 AND parent_id=10 )  [ RunTime:0.0002s ]
+SQL: SELECT * FROM `jx_category`  [ RunTime:0.0002s ]
+SQL: SELECT * FROM `jx_goods` WHERE ( is_sale=1 AND cate_id in (22,23,24,21) ) LIMIT 8   [ RunTime:0.0004s ]
+SQL: SELECT * FROM `jx_category`  [ RunTime:0.0002s ]
+SQL: SELECT * FROM `jx_goods` WHERE ( is_sale=1 AND cate_id in (30,29) ) LIMIT 8   [ RunTime:0.0002s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000169s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000209s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.055231s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.055284s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000499s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000536s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000752s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000811s ]
+
+[ 2018-12-25T17:03:11+08:00 ] 127.0.0.1 /info.php
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000027s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001014s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001958s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002037s ]
+ERR: 无法加载控制器:Info.php
+
+[ 2018-12-25T20:35:52+08:00 ] 127.0.0.1 /
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000385s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000614s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000662s ]
+SQL: SELECT * FROM `jx_category`  [ RunTime:0.0005s ]
+NOTIC: [2048] Declaration of Admin\Model\GoodsModel::_after_insert() should be compatible with Think\Model::_after_insert($data, $options) F:\wamp\ThinkPHP_Project\jxshop\Application\Admin\Model\GoodsModel.class.php 第 452 行.
+SQL: SELECT * FROM `jx_goods` WHERE ( is_sale=1 AND is_hot=1 ) ORDER BY id desc LIMIT 5   [ RunTime:0.0006s ]
+SQL: SELECT * FROM `jx_goods` WHERE ( is_sale=1 AND is_rec=1 ) ORDER BY id desc LIMIT 5   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `jx_goods` WHERE ( is_sale=1 AND is_new=1 ) ORDER BY id desc LIMIT 5   [ RunTime:0.0002s ]
+SQL: SELECT * FROM `jx_goods` WHERE ( is_sale=1 AND cx_price>0 AND start<1545741352 AND end>1545741352 ) LIMIT 5   [ RunTime:0.0002s ]
+SQL: SELECT * FROM `jx_category` WHERE ( parent_id=0 )  [ RunTime:0.0001s ]
+SQL: SELECT * FROM `jx_category` WHERE ( parent_id=1 )  [ RunTime:0.0001s ]
+SQL: SELECT * FROM `jx_category` WHERE ( isrec=1 AND parent_id=1 )  [ RunTime:0.0002s ]
+SQL: SELECT * FROM `jx_category`  [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `jx_goods` [ RunTime:0.0033s ]
+SQL: SELECT * FROM `jx_goods` WHERE ( is_sale=1 AND cate_id in (2,5,4,6,25,17) ) LIMIT 8   [ RunTime:0.0007s ]
+SQL: SELECT * FROM `jx_category`  [ RunTime:0.0003s ]
+SQL: SELECT * FROM `jx_goods` WHERE ( is_sale=1 AND cate_id in (19,20,18) ) LIMIT 8   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `jx_category` WHERE ( parent_id=8 )  [ RunTime:0.0004s ]
+SQL: SELECT * FROM `jx_category` WHERE ( isrec=1 AND parent_id=8 )  [ RunTime:0.0005s ]
+SQL: SELECT * FROM `jx_category`  [ RunTime:0.0003s ]
+SQL: SELECT * FROM `jx_goods` WHERE ( is_sale=1 AND cate_id in (7,9,11,12) ) LIMIT 8   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `jx_category`  [ RunTime:0.0003s ]
+SQL: SELECT * FROM `jx_goods` WHERE ( is_sale=1 AND cate_id in (26,13) ) LIMIT 8   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `jx_category`  [ RunTime:0.0002s ]
+SQL: SELECT * FROM `jx_goods` WHERE ( is_sale=1 AND cate_id in (27,28,14) ) LIMIT 8   [ RunTime:0.0002s ]
+SQL: SELECT * FROM `jx_category` WHERE ( parent_id=10 )  [ RunTime:0.0001s ]
+SQL: SELECT * FROM `jx_category` WHERE ( isrec=1 AND parent_id=10 )  [ RunTime:0.0001s ]
+SQL: SELECT * FROM `jx_category`  [ RunTime:0.0002s ]
+SQL: SELECT * FROM `jx_goods` WHERE ( is_sale=1 AND cate_id in (22,23,24,21) ) LIMIT 8   [ RunTime:0.0002s ]
+SQL: SELECT * FROM `jx_category`  [ RunTime:0.0002s ]
+SQL: SELECT * FROM `jx_goods` WHERE ( is_sale=1 AND cate_id in (30,29) ) LIMIT 8   [ RunTime:0.0002s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000254s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000313s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.031952s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.032017s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000661s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000703s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000872s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000928s ]
+
+[ 2018-12-25T22:03:52+08:00 ] 127.0.0.1 /
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000551s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000939s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000985s ]
+SQL: SELECT * FROM `jx_category`  [ RunTime:0.0007s ]
+NOTIC: [2048] Declaration of Admin\Model\GoodsModel::_after_insert() should be compatible with Think\Model::_after_insert($data, $options) F:\wamp\ThinkPHP_Project\jxshop\Application\Admin\Model\GoodsModel.class.php 第 452 行.
+SQL: SELECT * FROM `jx_goods` WHERE ( is_sale=1 AND is_hot=1 ) ORDER BY id desc LIMIT 5   [ RunTime:0.0005s ]
+SQL: SELECT * FROM `jx_goods` WHERE ( is_sale=1 AND is_rec=1 ) ORDER BY id desc LIMIT 5   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `jx_goods` WHERE ( is_sale=1 AND is_new=1 ) ORDER BY id desc LIMIT 5   [ RunTime:0.0002s ]
+SQL: SELECT * FROM `jx_goods` WHERE ( is_sale=1 AND cx_price>0 AND start<1545746632 AND end>1545746632 ) LIMIT 5   [ RunTime:0.0002s ]
+SQL: SELECT * FROM `jx_category` WHERE ( parent_id=0 )  [ RunTime:0.0001s ]
+SQL: SELECT * FROM `jx_category` WHERE ( parent_id=1 )  [ RunTime:0.0001s ]
+SQL: SELECT * FROM `jx_category` WHERE ( isrec=1 AND parent_id=1 )  [ RunTime:0.0001s ]
+SQL: SELECT * FROM `jx_category`  [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `jx_goods` [ RunTime:0.0058s ]
+SQL: SELECT * FROM `jx_goods` WHERE ( is_sale=1 AND cate_id in (2,5,4,6,25,17) ) LIMIT 8   [ RunTime:0.0005s ]
+SQL: SELECT * FROM `jx_category`  [ RunTime:0.0003s ]
+SQL: SELECT * FROM `jx_goods` WHERE ( is_sale=1 AND cate_id in (19,20,18) ) LIMIT 8   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `jx_category` WHERE ( parent_id=8 )  [ RunTime:0.0002s ]
+SQL: SELECT * FROM `jx_category` WHERE ( isrec=1 AND parent_id=8 )  [ RunTime:0.0002s ]
+SQL: SELECT * FROM `jx_category`  [ RunTime:0.0002s ]
+SQL: SELECT * FROM `jx_goods` WHERE ( is_sale=1 AND cate_id in (7,9,11,12) ) LIMIT 8   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `jx_category`  [ RunTime:0.0003s ]
+SQL: SELECT * FROM `jx_goods` WHERE ( is_sale=1 AND cate_id in (26,13) ) LIMIT 8   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `jx_category`  [ RunTime:0.0002s ]
+SQL: SELECT * FROM `jx_goods` WHERE ( is_sale=1 AND cate_id in (27,28,14) ) LIMIT 8   [ RunTime:0.0002s ]
+SQL: SELECT * FROM `jx_category` WHERE ( parent_id=10 )  [ RunTime:0.0002s ]
+SQL: SELECT * FROM `jx_category` WHERE ( isrec=1 AND parent_id=10 )  [ RunTime:0.0002s ]
+SQL: SELECT * FROM `jx_category`  [ RunTime:0.0002s ]
+SQL: SELECT * FROM `jx_goods` WHERE ( is_sale=1 AND cate_id in (22,23,24,21) ) LIMIT 8   [ RunTime:0.0002s ]
+SQL: SELECT * FROM `jx_category`  [ RunTime:0.0002s ]
+SQL: SELECT * FROM `jx_goods` WHERE ( is_sale=1 AND cate_id in (30,29) ) LIMIT 8   [ RunTime:0.0002s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000238s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000297s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.032887s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.032937s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000605s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000632s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000737s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000776s ]
+
+[ 2018-12-25T22:04:41+08:00 ] 127.0.0.1 /home/User/SMStest
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000317s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000555s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000587s ]
+SQL: SELECT * FROM `jx_category`  [ RunTime:0.0004s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000820s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000873s ]
+
+[ 2018-12-25T22:15:54+08:00 ] 127.0.0.1 /
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000532s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000538s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000578s ]
+SQL: SELECT * FROM `jx_category`  [ RunTime:0.0004s ]
+NOTIC: [2048] Declaration of Admin\Model\GoodsModel::_after_insert() should be compatible with Think\Model::_after_insert($data, $options) F:\wamp\ThinkPHP_Project\jxshop\Application\Admin\Model\GoodsModel.class.php 第 452 行.
+SQL: SELECT * FROM `jx_goods` WHERE ( is_sale=1 AND is_hot=1 ) ORDER BY id desc LIMIT 5   [ RunTime:0.0005s ]
+SQL: SELECT * FROM `jx_goods` WHERE ( is_sale=1 AND is_rec=1 ) ORDER BY id desc LIMIT 5   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `jx_goods` WHERE ( is_sale=1 AND is_new=1 ) ORDER BY id desc LIMIT 5   [ RunTime:0.0006s ]
+SQL: SELECT * FROM `jx_goods` WHERE ( is_sale=1 AND cx_price>0 AND start<1545747354 AND end>1545747354 ) LIMIT 5   [ RunTime:0.0005s ]
+SQL: SELECT * FROM `jx_category` WHERE ( parent_id=0 )  [ RunTime:0.0003s ]
+SQL: SELECT * FROM `jx_category` WHERE ( parent_id=1 )  [ RunTime:0.0002s ]
+SQL: SELECT * FROM `jx_category` WHERE ( isrec=1 AND parent_id=1 )  [ RunTime:0.0002s ]
+SQL: SELECT * FROM `jx_category`  [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `jx_goods` [ RunTime:0.0067s ]
+SQL: SELECT * FROM `jx_goods` WHERE ( is_sale=1 AND cate_id in (2,5,4,6,25,17) ) LIMIT 8   [ RunTime:0.0004s ]
+SQL: SELECT * FROM `jx_category`  [ RunTime:0.0004s ]
+SQL: SELECT * FROM `jx_goods` WHERE ( is_sale=1 AND cate_id in (19,20,18) ) LIMIT 8   [ RunTime:0.0004s ]
+SQL: SELECT * FROM `jx_category` WHERE ( parent_id=8 )  [ RunTime:0.0002s ]
+SQL: SELECT * FROM `jx_category` WHERE ( isrec=1 AND parent_id=8 )  [ RunTime:0.0002s ]
+SQL: SELECT * FROM `jx_category`  [ RunTime:0.0002s ]
+SQL: SELECT * FROM `jx_goods` WHERE ( is_sale=1 AND cate_id in (7,9,11,12) ) LIMIT 8   [ RunTime:0.0002s ]
+SQL: SELECT * FROM `jx_category`  [ RunTime:0.0002s ]
+SQL: SELECT * FROM `jx_goods` WHERE ( is_sale=1 AND cate_id in (26,13) ) LIMIT 8   [ RunTime:0.0002s ]
+SQL: SELECT * FROM `jx_category`  [ RunTime:0.0002s ]
+SQL: SELECT * FROM `jx_goods` WHERE ( is_sale=1 AND cate_id in (27,28,14) ) LIMIT 8   [ RunTime:0.0002s ]
+SQL: SELECT * FROM `jx_category` WHERE ( parent_id=10 )  [ RunTime:0.0001s ]
+SQL: SELECT * FROM `jx_category` WHERE ( isrec=1 AND parent_id=10 )  [ RunTime:0.0001s ]
+SQL: SELECT * FROM `jx_category`  [ RunTime:0.0002s ]
+SQL: SELECT * FROM `jx_goods` WHERE ( is_sale=1 AND cate_id in (22,23,24,21) ) LIMIT 8   [ RunTime:0.0002s ]
+SQL: SELECT * FROM `jx_category`  [ RunTime:0.0002s ]
+SQL: SELECT * FROM `jx_goods` WHERE ( is_sale=1 AND cate_id in (30,29) ) LIMIT 8   [ RunTime:0.0003s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000169s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000214s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.029033s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.029088s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000512s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000540s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000790s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000830s ]
+
+[ 2018-12-25T22:15:57+08:00 ] 127.0.0.1 /User/regist.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000310s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000816s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000873s ]
+SQL: SELECT * FROM `jx_category`  [ RunTime:0.0003s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000147s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000288s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.042401s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.042456s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000451s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000480s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000628s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000658s ]
+
+[ 2018-12-25T22:15:57+08:00 ] 127.0.0.1 /User/code.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000176s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000709s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000970s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001041s ]
+SQL: SELECT * FROM `jx_category`  [ RunTime:0.0005s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.004857s ]
+INFO: [ app_end ] --END-- [ RunTime:0.004954s ]
+
+[ 2018-12-25T22:19:57+08:00 ] 127.0.0.1 /User/regist.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000366s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000801s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000846s ]
+SQL: SELECT * FROM `jx_category`  [ RunTime:0.0005s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000067s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000112s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.007328s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.007395s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000417s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000445s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000610s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000645s ]
+
+[ 2018-12-25T22:19:57+08:00 ] 127.0.0.1 /User/code.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000023s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002657s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001151s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001234s ]
+SQL: SELECT * FROM `jx_category`  [ RunTime:0.0014s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001438s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001520s ]
+
+[ 2018-12-25T22:20:30+08:00 ] 127.0.0.1 /User/regist.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000042s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000769s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000759s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000812s ]
+SQL: SELECT * FROM `jx_category`  [ RunTime:0.0008s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000061s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000105s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.008490s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.008543s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000477s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000506s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000578s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000607s ]
+
+[ 2018-12-25T22:20:30+08:00 ] 127.0.0.1 /User/code.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000024s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001552s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000981s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001055s ]
+SQL: SELECT * FROM `jx_category`  [ RunTime:0.0004s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001204s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001296s ]
+
+[ 2018-12-25T22:20:32+08:00 ] 127.0.0.1 /User/regist.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000010s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000294s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000665s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000702s ]
+SQL: SELECT * FROM `jx_category`  [ RunTime:0.0005s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000069s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000108s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.006417s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.006456s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000376s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000402s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001266s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001306s ]
+
+[ 2018-12-25T22:20:32+08:00 ] 127.0.0.1 /User/code.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000016s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000445s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000808s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000872s ]
+SQL: SELECT * FROM `jx_category`  [ RunTime:0.0011s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001498s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001637s ]
+
+[ 2018-12-25T22:20:59+08:00 ] 127.0.0.1 /User/regist.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000010s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000292s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000608s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000645s ]
+SQL: SELECT * FROM `jx_category`  [ RunTime:0.0006s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000064s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000116s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.007930s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.008002s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000673s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000705s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.003263s ]
+INFO: [ app_end ] --END-- [ RunTime:0.003305s ]
+
+[ 2018-12-25T22:20:59+08:00 ] 127.0.0.1 /User/code.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000017s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000528s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001482s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001626s ]
+SQL: SELECT * FROM `jx_category`  [ RunTime:0.0006s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001442s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001547s ]
+
+[ 2018-12-25T22:21:53+08:00 ] 127.0.0.1 /User/regist.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000753s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001794s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000907s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000961s ]
+SQL: SELECT * FROM `jx_category`  [ RunTime:0.0005s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000059s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000099s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.006375s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.006422s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000520s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000554s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000594s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000640s ]
+
+[ 2018-12-25T22:21:54+08:00 ] 127.0.0.1 /User/code.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000018s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000538s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002894s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003022s ]
+SQL: SELECT * FROM `jx_category`  [ RunTime:0.0004s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001870s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002046s ]
+
+[ 2018-12-25T22:23:24+08:00 ] 127.0.0.1 /User/regist.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000444s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000604s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000642s ]
+SQL: SELECT * FROM `jx_category`  [ RunTime:0.0003s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000063s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000105s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.009020s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.009054s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000400s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000426s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000581s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000608s ]
+
+[ 2018-12-25T22:23:24+08:00 ] 127.0.0.1 /User/code.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000020s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000586s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000889s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000959s ]
+SQL: SELECT * FROM `jx_category`  [ RunTime:0.0004s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001071s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001147s ]
+
+[ 2018-12-25T22:25:41+08:00 ] 127.0.0.1 /User/regist.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000389s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000915s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000974s ]
+SQL: SELECT * FROM `jx_category`  [ RunTime:0.0010s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000086s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000148s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.008243s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.008292s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000608s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000650s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000958s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001013s ]
+
+[ 2018-12-25T22:25:41+08:00 ] 127.0.0.1 /User/code.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000017s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000640s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.004531s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004668s ]
+SQL: SELECT * FROM `jx_category`  [ RunTime:0.0003s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002302s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002377s ]
+
+[ 2018-12-25T22:27:28+08:00 ] 127.0.0.1 /User/regist.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000429s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000579s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000618s ]
+SQL: SELECT * FROM `jx_category`  [ RunTime:0.0006s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000066s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000108s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.006368s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.006412s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000686s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000735s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001756s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001820s ]
+
+[ 2018-12-25T22:27:28+08:00 ] 127.0.0.1 /User/code.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000068s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002243s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000949s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001022s ]
+SQL: SELECT * FROM `jx_category`  [ RunTime:0.0005s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.005913s ]
+INFO: [ app_end ] --END-- [ RunTime:0.006041s ]
+
+[ 2018-12-25T22:27:32+08:00 ] 127.0.0.1 /User/regist.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000010s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000299s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000508s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000541s ]
+SQL: SELECT * FROM `jx_category`  [ RunTime:0.0009s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000062s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000099s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.005942s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.005976s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000379s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000404s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000581s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000627s ]
+
+[ 2018-12-25T22:27:32+08:00 ] 127.0.0.1 /User/code.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000018s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000532s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000935s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001003s ]
+SQL: SELECT * FROM `jx_category`  [ RunTime:0.0003s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000792s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000857s ]
+
+[ 2018-12-25T22:27:32+08:00 ] 127.0.0.1 /favicon.ico
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000305s ]
+
+[ 2018-12-25T22:27:58+08:00 ] 127.0.0.1 /User/regist.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000297s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001330s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001440s ]
+SQL: SELECT * FROM `jx_category`  [ RunTime:0.0003s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000060s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000129s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.009294s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.009339s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000559s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000605s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000783s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000824s ]
+
+[ 2018-12-25T22:27:58+08:00 ] 127.0.0.1 /User/code.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000020s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000748s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001222s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001306s ]
+SQL: SELECT * FROM `jx_category`  [ RunTime:0.0023s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001051s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001123s ]
+
+[ 2018-12-25T22:28:34+08:00 ] 127.0.0.1 /User/regist.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000533s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001832s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001892s ]
+SQL: SELECT * FROM `jx_category`  [ RunTime:0.0003s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000088s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000150s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.008174s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.008215s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000406s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000434s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000891s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000933s ]
+
+[ 2018-12-25T22:28:34+08:00 ] 127.0.0.1 /User/code.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000018s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000559s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001112s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001199s ]
+SQL: SELECT * FROM `jx_category`  [ RunTime:0.0004s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001014s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001098s ]
+
+[ 2018-12-25T22:28:46+08:00 ] 127.0.0.1 /User/regist.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000354s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000525s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000560s ]
+SQL: SELECT * FROM `jx_category`  [ RunTime:0.0003s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000095s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000165s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.009634s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.009686s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000658s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000708s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000890s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000942s ]
+
+[ 2018-12-25T22:28:46+08:00 ] 127.0.0.1 /User/code.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000021s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000786s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001088s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001197s ]
+SQL: SELECT * FROM `jx_category`  [ RunTime:0.0004s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001310s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001434s ]
+
+[ 2018-12-25T22:29:04+08:00 ] 127.0.0.1 /User/regist.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000335s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000584s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000622s ]
+SQL: SELECT * FROM `jx_category`  [ RunTime:0.0004s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000061s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000107s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.006545s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.006582s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000417s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000448s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000643s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000677s ]
+
+[ 2018-12-25T22:29:04+08:00 ] 127.0.0.1 /User/code.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000059s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001083s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001511s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001617s ]
+SQL: SELECT * FROM `jx_category`  [ RunTime:0.0009s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.004959s ]
+INFO: [ app_end ] --END-- [ RunTime:0.005054s ]
+
+[ 2018-12-25T23:58:24+08:00 ] 127.0.0.1 /
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000017s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000489s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001055s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001178s ]
+SQL: SELECT * FROM `jx_category`  [ RunTime:0.0006s ]
+NOTIC: [2048] Declaration of Admin\Model\GoodsModel::_after_insert() should be compatible with Think\Model::_after_insert($data, $options) F:\wamp\ThinkPHP_Project\jxshop\Application\Admin\Model\GoodsModel.class.php 第 452 行.
+SQL: SELECT * FROM `jx_goods` WHERE ( is_sale=1 AND is_hot=1 ) ORDER BY id desc LIMIT 5   [ RunTime:0.0009s ]
+SQL: SELECT * FROM `jx_goods` WHERE ( is_sale=1 AND is_rec=1 ) ORDER BY id desc LIMIT 5   [ RunTime:0.0023s ]
+SQL: SELECT * FROM `jx_goods` WHERE ( is_sale=1 AND is_new=1 ) ORDER BY id desc LIMIT 5   [ RunTime:0.0006s ]
+SQL: SELECT * FROM `jx_goods` WHERE ( is_sale=1 AND cx_price>0 AND start<1545753504 AND end>1545753504 ) LIMIT 5   [ RunTime:0.0005s ]
+SQL: SELECT * FROM `jx_category` WHERE ( parent_id=0 )  [ RunTime:0.0004s ]
+SQL: SELECT * FROM `jx_category` WHERE ( parent_id=1 )  [ RunTime:0.0004s ]
+SQL: SELECT * FROM `jx_category` WHERE ( isrec=1 AND parent_id=1 )  [ RunTime:0.0004s ]
+SQL: SELECT * FROM `jx_category`  [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `jx_goods` [ RunTime:0.0040s ]
+SQL: SELECT * FROM `jx_goods` WHERE ( is_sale=1 AND cate_id in (2,5,4,6,25,17) ) LIMIT 8   [ RunTime:0.0008s ]
+SQL: SELECT * FROM `jx_category`  [ RunTime:0.0017s ]
+SQL: SELECT * FROM `jx_goods` WHERE ( is_sale=1 AND cate_id in (19,20,18) ) LIMIT 8   [ RunTime:0.0009s ]
+SQL: SELECT * FROM `jx_category` WHERE ( parent_id=8 )  [ RunTime:0.0005s ]
+SQL: SELECT * FROM `jx_category` WHERE ( isrec=1 AND parent_id=8 )  [ RunTime:0.0005s ]
+SQL: SELECT * FROM `jx_category`  [ RunTime:0.0004s ]
+SQL: SELECT * FROM `jx_goods` WHERE ( is_sale=1 AND cate_id in (7,9,11,12) ) LIMIT 8   [ RunTime:0.0006s ]
+SQL: SELECT * FROM `jx_category`  [ RunTime:0.0003s ]
+SQL: SELECT * FROM `jx_goods` WHERE ( is_sale=1 AND cate_id in (26,13) ) LIMIT 8   [ RunTime:0.0005s ]
+SQL: SELECT * FROM `jx_category`  [ RunTime:0.0004s ]
+SQL: SELECT * FROM `jx_goods` WHERE ( is_sale=1 AND cate_id in (27,28,14) ) LIMIT 8   [ RunTime:0.0005s ]
+SQL: SELECT * FROM `jx_category` WHERE ( parent_id=10 )  [ RunTime:0.0003s ]
+SQL: SELECT * FROM `jx_category` WHERE ( isrec=1 AND parent_id=10 )  [ RunTime:0.0003s ]
+SQL: SELECT * FROM `jx_category`  [ RunTime:0.0002s ]
+SQL: SELECT * FROM `jx_goods` WHERE ( is_sale=1 AND cate_id in (22,23,24,21) ) LIMIT 8   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `jx_category`  [ RunTime:0.0002s ]
+SQL: SELECT * FROM `jx_goods` WHERE ( is_sale=1 AND cate_id in (30,29) ) LIMIT 8   [ RunTime:0.0002s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000163s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000201s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.027639s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.027702s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000610s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000647s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000798s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000841s ]
+
+[ 2018-12-25T23:58:26+08:00 ] 127.0.0.1 /User/regist.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000351s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000478s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000518s ]
+SQL: SELECT * FROM `jx_category`  [ RunTime:0.0003s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000064s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000105s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.006184s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.006244s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000507s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000540s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000578s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000617s ]
+
+[ 2018-12-25T23:58:26+08:00 ] 127.0.0.1 /User/code.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000017s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000524s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000903s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000974s ]
+SQL: SELECT * FROM `jx_category`  [ RunTime:0.0010s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000950s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001026s ]
+
+[ 2018-12-25T23:58:58+08:00 ] 127.0.0.1 /User/regist.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000482s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000800s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000860s ]
+SQL: SELECT * FROM `jx_category`  [ RunTime:0.0004s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000126s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000197s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.009756s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.009812s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000481s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000526s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000592s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000627s ]
+
+[ 2018-12-25T23:58:58+08:00 ] 127.0.0.1 /User/code.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000019s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000714s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000832s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000901s ]
+SQL: SELECT * FROM `jx_category`  [ RunTime:0.0005s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002192s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002290s ]
+
+[ 2018-12-25T23:59:11+08:00 ] 127.0.0.1 /User/regist.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000617s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000531s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000577s ]
+SQL: SELECT * FROM `jx_category`  [ RunTime:0.0004s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000059s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000102s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.009040s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.009116s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000373s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000400s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000613s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000668s ]
+
+[ 2018-12-25T23:59:11+08:00 ] 127.0.0.1 /User/code.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000028s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000994s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001730s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001922s ]
+SQL: SELECT * FROM `jx_category`  [ RunTime:0.0005s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001285s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001371s ]
+
+[ 2018-12-25T23:59:27+08:00 ] 127.0.0.1 /User/regist.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000319s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000848s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000912s ]
+SQL: SELECT * FROM `jx_category`  [ RunTime:0.0003s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000060s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000103s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.007552s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.007587s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000326s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000352s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000495s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000523s ]
+
+[ 2018-12-25T23:59:27+08:00 ] 127.0.0.1 /User/code.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000018s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000516s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000918s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001004s ]
+SQL: SELECT * FROM `jx_category`  [ RunTime:0.0005s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001719s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001809s ]
+
+[ 2018-12-25T23:59:31+08:00 ] 127.0.0.1 /User/regist.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000016s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000512s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000624s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000673s ]
+SQL: SELECT * FROM `jx_category`  [ RunTime:0.0003s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000111s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000172s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.007158s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.007220s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001114s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001181s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000536s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000567s ]
+
+[ 2018-12-25T23:59:31+08:00 ] 127.0.0.1 /User/code.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000022s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000626s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001008s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001097s ]
+SQL: SELECT * FROM `jx_category`  [ RunTime:0.0004s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000986s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001066s ]
+

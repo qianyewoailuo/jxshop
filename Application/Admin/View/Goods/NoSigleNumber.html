@@ -1,0 +1,27 @@
+<extend name="Public:base"/>
+<block name="title">ECSHOP 管理中心 - 添加管理角色 </block>
+<block name="header">
+    <span class="action-span"><a href="{:U('index')}">角色列表</a></span>
+    <span class="action-span1"><a href="#">ECSHOP 管理中心</a></span>
+    <span id="search_id" class="action-span1"> - 添加管理角色 </span>
+    <div style="clear:both"></div>
+</block>
+<block name="body">
+    <form action="" method="post" name="theForm">
+        <table width="100%" id="general-table">
+            <tr>
+                <td class="label">库存总数量:</td>
+                <td>
+                <!-- goods_number数组值 -->
+                <input type="text" name="goods_number" value="{$info.goods_number}"/>
+                </td>
+            </tr>
+        <!-- 隐藏域:goods_id值 -->
+        <input type="hidden" name="goods_id" value="{$Think.get.goods_id}" />
+        </table>
+        <div class="button-div">
+            <input type="submit" value=" 确定 " />
+            <input type="reset" value=" 重置 " />
+        </div>
+    </form>
+</block>

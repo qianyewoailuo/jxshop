@@ -1,0 +1,48 @@
+[ 2018-12-12T15:37:08+08:00 ] 127.0.0.1 /
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000017s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000513s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000541s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000582s ]
+SQL: SELECT * FROM `jx_category`  [ RunTime:0.0595s ]
+NOTIC: [2048] Declaration of Admin\Model\GoodsModel::_after_insert() should be compatible with Think\Model::_after_insert($data, $options) F:\wamp\ThinkPHP_Project\jxshop\Application\Admin\Model\GoodsModel.class.php 第 442 行.
+SQL: SELECT * FROM `jx_goods` WHERE ( is_sale=1 AND is_hot=1 ) ORDER BY id desc LIMIT 5   [ RunTime:0.0457s ]
+SQL: SELECT * FROM `jx_goods` WHERE ( is_sale=1 AND is_rec=1 ) ORDER BY id desc LIMIT 5   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `jx_goods` WHERE ( is_sale=1 AND is_new=1 ) ORDER BY id desc LIMIT 5   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `jx_goods` WHERE ( is_sale=1 AND cx_price>0 AND start<1544600228 AND end>1544600228 ) LIMIT 5   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `jx_category` WHERE ( parent_id=0 )  [ RunTime:0.0002s ]
+SQL: SELECT * FROM `jx_category` WHERE ( parent_id=1 )  [ RunTime:0.0002s ]
+SQL: SELECT * FROM `jx_category` WHERE ( isrec=1 AND parent_id=1 )  [ RunTime:0.0002s ]
+SQL: SELECT * FROM `jx_category`  [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `jx_goods` [ RunTime:0.0029s ]
+SQL: SELECT * FROM `jx_goods` WHERE ( is_sale=1 AND cate_id in (2,5,4,6,25,17) ) LIMIT 8   [ RunTime:0.0004s ]
+SQL: SELECT * FROM `jx_category`  [ RunTime:0.0002s ]
+SQL: SELECT * FROM `jx_goods` WHERE ( is_sale=1 AND cate_id in (19,20,18) ) LIMIT 8   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `jx_category` WHERE ( parent_id=8 )  [ RunTime:0.0002s ]
+SQL: SELECT * FROM `jx_category` WHERE ( isrec=1 AND parent_id=8 )  [ RunTime:0.0002s ]
+SQL: SELECT * FROM `jx_category`  [ RunTime:0.0002s ]
+SQL: SELECT * FROM `jx_goods` WHERE ( is_sale=1 AND cate_id in (7,9,11,12) ) LIMIT 8   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `jx_category`  [ RunTime:0.0002s ]
+SQL: SELECT * FROM `jx_goods` WHERE ( is_sale=1 AND cate_id in (26,13) ) LIMIT 8   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `jx_category`  [ RunTime:0.0002s ]
+SQL: SELECT * FROM `jx_goods` WHERE ( is_sale=1 AND cate_id in (27,28,14) ) LIMIT 8   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `jx_category` WHERE ( parent_id=10 )  [ RunTime:0.0002s ]
+SQL: SELECT * FROM `jx_category` WHERE ( isrec=1 AND parent_id=10 )  [ RunTime:0.0002s ]
+SQL: SELECT * FROM `jx_category`  [ RunTime:0.0002s ]
+SQL: SELECT * FROM `jx_goods` WHERE ( is_sale=1 AND cate_id in (22,23,24,21) ) LIMIT 8   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `jx_category`  [ RunTime:0.0002s ]
+SQL: SELECT * FROM `jx_goods` WHERE ( is_sale=1 AND cate_id in (30,29) ) LIMIT 8   [ RunTime:0.0003s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000156s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000194s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.077796s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.077837s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000463s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000498s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000886s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000931s ]
+

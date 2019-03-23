@@ -1,0 +1,51 @@
+<extend name="Public/base" />
+<block name="title">ECSHOP 管理中心 - 添加分类 </block>
+<block name="header">
+    <!-- 模板继承的步骤
+    1.新建base.html模板于公共文件夹Public中
+    2.在公共模板中设置需要实现的<block>标签
+    3.在需要继承的模板中实现<block>标签，其余的公共模板部分存在的内容去除
+    4.顶部使用<extend name="地址/文件名(不带后缀)" />标签标识开始继承
+     -->
+    <span class="action-span"><a href="{:U('index')}">商品分类</a></span>
+    <span class="action-span1"><a href="#">ECSHOP 管理中心</a></span>
+    <span id="search_id" class="action-span1"> - 添加分类 </span>
+    <div style="clear:both"></div>
+</block>
+<block name="body">
+    <form action="" method="post" name="theForm" enctype="multipart/form-data">
+        <table width="100%" id="general-table">
+            <tr>
+                <td class="label">分类名称:</td>
+                <td>
+                    <input type='text' name='cname' maxlength="20" value='' size='27' /> <font color="red">*</font>
+                </td>
+            </tr>
+            <tr>
+                <td class="label">上级分类:</td>
+                <td>
+                    <select name="parent_id">
+                        <option value="0">顶级分类</option>
+                        <volist name="cate" id="vo">
+                            <!-- <option value="{$vo.id}">{$vo.lev|str_repeat="&nbsp;",###}{$vo.cname}</option> -->
+                            <option value="{$vo.id}">{:str_repeat("&nbsp;",$vo['lev'])}{$vo.cname}</option>
+                            <!-- 注意使用特殊写法输出函数时变量不能使用点语法必须使用原生的语法 -->
+                            <!-- 如果模板渲染输出有问题可以查看runtime文件里的缓存文件找错 -->
+                        </volist>
+                    </select>
+                </td>
+            </tr>
+            <tr>
+                <td class="label">是否推荐:</td>
+                <td>
+                    <input type="radio" name="isrec" value="1"  /> 是 
+                    <input type="radio" name="isrec" value="0"  checked="true"/> 否
+                </td>
+            </tr>
+        </table>
+        <div class="button-div">
+            <input type="submit" value=" 确定 " />
+            <input type="reset" value=" 重置 " />
+        </div>
+    </form>
+</block>

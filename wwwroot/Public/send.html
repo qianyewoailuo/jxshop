@@ -1,0 +1,72 @@
+<extend name="Public:base"/>
+<block name="title">ECSHOP 管理中心 - 分类添加 </block>
+<block name="header">
+    <span class="action-span"><a href="#">商品分类</a></span>
+    <span class="action-span1"><a href="#">ECSHOP 管理中心</a></span>
+    <span id="search_id" class="action-span1"> - 添加分类 </span>
+    <div style="clear:both"></div>
+</block>
+<block name="body">
+<style type="text/css">
+.main-div table {background: #BBDDE5;}
+</style>
+    <form action="" method="post" name="theForm" enctype="multipart/form-data">
+       <div class="list-div">
+            <table width="100%" cellpadding="3" cellspacing="1">
+            <tbody>
+                <tr>
+                    <th colspan="4">订单信息</th>
+                </tr>
+                <tr>
+                    <td align="right" width="18%">订单号:</td>
+                    <td align="left" width="34%">11</td>
+                    <td align="right" width="15%">订单金额:</td>
+                    <td align="left">2000</td>
+                </tr>
+                <tr>
+                    <td align="right" width="18%">下单时间:</td>
+                    <td align="left" width="34%">2017-01-01 00:00:00</td>
+                    <td align="right" width="15%">订单状态:</td>
+                    <td align="left">已支付 已发货</td>
+                </tr>
+                <tr>
+                    <td align="right" width="18%">收货人:</td>
+                    <td align="left" width="34%">张三</td>
+                    <td align="right" width="15%">收货地址:</td>
+                    <td align="left">湖北省荆州市江陵县</td>
+                </tr>
+                <tr>
+                    <td align="right" width="18%">联系电话:</td>
+                    <td align="left" width="34%">18511111111</td>
+                    <td align="right" width="15%">下单人:</td>
+                    <td align="left">leo</td>
+                </tr>
+            </tbody>
+            </table>
+        </div>
+        <div class="list-div">
+            <table width="100%" cellpadding="3" cellspacing="1">
+                <tr>
+                    <th colspan="4">发货信息</th>
+                </tr>
+                <tr>
+                    <td class="label">快递代号:</td>
+                    <td>
+                        <input type='text' name='com' value=''  /> 
+                    </td>
+                </tr>
+                <tr>
+                    <td class="label">快递单号:</td>
+                    <td>
+                        <input type='text' name='no'  value=''  /> 
+                    </td>
+                </tr>
+            </table>
+        </div>
+        <input type="hidden" name="id" value="">
+        <div class="button-div">
+            <input type="submit" value=" 确定 " />
+            <input type="reset" value=" 重置 " />
+        </div>
+    </form>
+</block>

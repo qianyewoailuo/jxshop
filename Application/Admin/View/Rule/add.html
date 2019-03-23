@@ -1,0 +1,69 @@
+<extend name="Public:base"/>
+<block name="title">管理中心 - 添加权限 </block>
+<block name="header">
+    <span class="action-span"><a href="{:U('index')}">权限列表</a></span>
+    <span class="action-span1"><a href="#">ECSHOP 管理中心</a></span>
+    <span id="search_id" class="action-span1"> - 添加权限 </span>
+    <div style="clear:both"></div>
+</block>
+<block name="body">
+    <form action="" method="post" name="theForm" enctype="multipart/form-data">
+        <table width="100%" id="general-table">
+            <!-- 权限名称 -->
+            <tr>
+                <td class="label">权限名称:</td>
+                <td>
+                    <input type='text' name='rule_name' maxlength="20" value='' size='27' /> <font color="red">*</font>
+                </td>
+            </tr>
+            <!-- 模型名称 -->
+            <tr>
+                <td class="label">模型名称:</td>
+                <td>
+                    <input type='text' name='module_name' maxlength="20" value='' size='27' /> <font color="red">*</font>
+                </td>
+            </tr>            
+            <!-- 控制器名称 -->
+            <tr>
+                <td class="label">控制器名称:</td>
+                <td>
+                    <input type='text' name='controller_name' maxlength="20" value='' size='27' /> <font color="red">*</font>
+                </td>
+            </tr>    
+            <!-- 方法名称 -->
+            <tr>
+                <td class="label">方法名称:</td>
+                <td>
+                    <input type='text' name='action_name' maxlength="20" value='' size='27' /> <font color="red">*</font>
+                </td>
+            </tr>    
+            <!-- 上级权限 -->
+            <tr>
+                <td class="label">上级权限:</td>
+                <td>
+                    <select name="parent_id">
+                        <option value="0">顶级权限</option>
+                        <volist name="cate" id="vo">
+                            <!-- <option value="{$vo.id}">{$vo.lev|str_repeat="&nbsp;",###}{$vo.cname}</option> -->
+                            <option value="{$vo.id}">{:str_repeat("&nbsp;",$vo['lev'])}{$vo.rule_name}</option>
+                            <!-- 注意使用特殊写法输出函数时变量不能使用点语法必须使用原生的语法 -->
+                            <!-- 如果模板渲染输出有问题可以查看runtime文件里的缓存文件找错 -->
+                        </volist>
+                    </select>
+                </td>
+            </tr>
+            <!-- 是否显示 -->
+            <tr>
+                <td class="label">(导航菜单中)是否显示:</td>
+                <td>
+                    <input type="radio" name="is_show" value="1"  checked="true" /> 是 
+                    <input type="radio" name="is_show" value="0"  /> 否
+                </td>
+            </tr>
+        </table>
+        <div class="button-div">
+            <input type="submit" value=" 确定 " />
+            <input type="reset" value=" 重置 " />
+        </div>
+    </form>
+</block>

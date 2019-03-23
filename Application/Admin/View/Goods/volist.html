@@ -1,0 +1,16 @@
+<volist name="data" id="val" key='iteration' offset="0" length="5">
+    {$key} --{$iteration}- {$val.goods_name}--<br>
+</volist>
+<hr>
+<foreach name="data" item="val" key="k">
+    {$k} -- {$val.goods_name} <br/>
+</foreach>
+<hr>
+<php>
+    foreach($data as $key => $val){
+        if($key == 5){
+            break;
+        }
+        echo $key,'=>',$val['goods_name'],'<br>';
+    }
+</php>

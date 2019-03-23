@@ -1,0 +1,90 @@
+[ 2019-02-14T23:16:33+08:00 ] 127.0.0.1 /
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000017s ]
+INFO: [ app_init ] --END-- [ RunTime:0.013723s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000822s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000869s ]
+SQL: SELECT * FROM `jx_category`  [ RunTime:0.4459s ]
+NOTIC: [2048] Declaration of Admin\Model\GoodsModel::_after_insert() should be compatible with Think\Model::_after_insert($data, $options) F:\wamp\ThinkPHP_Project\jxshop\Application\Admin\Model\GoodsModel.class.php 第 451 行.
+SQL: SELECT * FROM `jx_goods` WHERE ( is_sale=1 AND is_hot=1 ) ORDER BY id desc LIMIT 5   [ RunTime:0.1533s ]
+SQL: SELECT * FROM `jx_goods` WHERE ( is_sale=1 AND is_rec=1 ) ORDER BY id desc LIMIT 5   [ RunTime:0.0004s ]
+SQL: SELECT * FROM `jx_goods` WHERE ( is_sale=1 AND is_new=1 ) ORDER BY id desc LIMIT 5   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `jx_goods` WHERE ( is_sale=1 AND cx_price>0 AND start<1550157392 AND end>1550157392 ) LIMIT 5   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `jx_category` WHERE ( parent_id=0 )  [ RunTime:0.0002s ]
+SQL: SELECT * FROM `jx_category` WHERE ( parent_id=1 )  [ RunTime:0.0002s ]
+SQL: SELECT * FROM `jx_category` WHERE ( isrec=1 AND parent_id=1 )  [ RunTime:0.0002s ]
+SQL: SELECT * FROM `jx_category`  [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `jx_goods` [ RunTime:0.4141s ]
+SQL: SELECT * FROM `jx_goods` WHERE ( is_sale=1 AND cate_id in (2,5,4,6,25,17) ) LIMIT 8   [ RunTime:0.0005s ]
+SQL: SELECT * FROM `jx_category`  [ RunTime:0.0002s ]
+SQL: SELECT * FROM `jx_goods` WHERE ( is_sale=1 AND cate_id in (19,20,18) ) LIMIT 8   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `jx_category` WHERE ( parent_id=8 )  [ RunTime:0.0002s ]
+SQL: SELECT * FROM `jx_category` WHERE ( isrec=1 AND parent_id=8 )  [ RunTime:0.0002s ]
+SQL: SELECT * FROM `jx_category`  [ RunTime:0.0002s ]
+SQL: SELECT * FROM `jx_goods` WHERE ( is_sale=1 AND cate_id in (7,9,11,12) ) LIMIT 8   [ RunTime:0.0004s ]
+SQL: SELECT * FROM `jx_category`  [ RunTime:0.0002s ]
+SQL: SELECT * FROM `jx_goods` WHERE ( is_sale=1 AND cate_id in (26,13) ) LIMIT 8   [ RunTime:0.0002s ]
+SQL: SELECT * FROM `jx_category`  [ RunTime:0.0002s ]
+SQL: SELECT * FROM `jx_goods` WHERE ( is_sale=1 AND cate_id in (27,28,14) ) LIMIT 8   [ RunTime:0.0002s ]
+SQL: SELECT * FROM `jx_category` WHERE ( parent_id=10 )  [ RunTime:0.0002s ]
+SQL: SELECT * FROM `jx_category` WHERE ( isrec=1 AND parent_id=10 )  [ RunTime:0.0002s ]
+SQL: SELECT * FROM `jx_category`  [ RunTime:0.0002s ]
+SQL: SELECT * FROM `jx_goods` WHERE ( is_sale=1 AND cate_id in (22,23,24,21) ) LIMIT 8   [ RunTime:0.0002s ]
+SQL: SELECT * FROM `jx_category`  [ RunTime:0.0002s ]
+SQL: SELECT * FROM `jx_goods` WHERE ( is_sale=1 AND cate_id in (30,29) ) LIMIT 8   [ RunTime:0.0002s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.035548s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.035637s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.848187s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.848235s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.024606s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.024668s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.021731s ]
+INFO: [ app_end ] --END-- [ RunTime:0.021783s ]
+
+[ 2019-02-14T23:16:36+08:00 ] 127.0.0.1 /favicon.ico
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000019s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000585s ]
+
+[ 2019-02-14T23:18:34+08:00 ] 127.0.0.1 /Goods/index/goods_id/29.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000315s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000477s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000516s ]
+SQL: SELECT * FROM `jx_category`  [ RunTime:0.0003s ]
+NOTIC: [2048] Declaration of Admin\Model\GoodsModel::_after_insert() should be compatible with Think\Model::_after_insert($data, $options) F:\wamp\ThinkPHP_Project\jxshop\Application\Admin\Model\GoodsModel.class.php 第 451 行.
+SQL: SELECT * FROM `jx_goods` WHERE ( is_sale=1 AND id=29 ) LIMIT 1   [ RunTime:0.0005s ]
+SQL: SELECT * FROM `jx_goods_img` WHERE ( goods_id=29 )  [ RunTime:0.0005s ]
+SQL: SHOW COLUMNS FROM `jx_goods_attr` [ RunTime:0.0052s ]
+SQL: SELECT a.*,b.attr_name,b.attr_type FROM jx_goods_attr a left join jx_attribute b on a.attr_id=b.id  WHERE ( a.goods_id=29 )  [ RunTime:0.0004s ]
+NOTIC: [2048] Declaration of Home\Model\CommentModel::_before_insert() should be compatible with Think\Model::_before_insert(&$data, $options) F:\wamp\ThinkPHP_Project\jxshop\Application\Home\Model\CommentModel.class.php 第 6 行.
+NOTIC: [2048] Declaration of Home\Model\CommentModel::_after_insert() should be compatible with Think\Model::_after_insert($data, $options) F:\wamp\ThinkPHP_Project\jxshop\Application\Home\Model\CommentModel.class.php 第 6 行.
+SQL: SELECT COUNT(*) AS tp_count FROM `jx_comment` WHERE ( goods_id=29 ) LIMIT 1   [ RunTime:0.1835s ]
+SQL: SELECT a.*,b.username FROM jx_comment a left join jx_user b on a.user_id = b.id  WHERE ( a.goods_id=29 ) LIMIT 0,3   [ RunTime:0.0534s ]
+SQL: SHOW COLUMNS FROM `jx_impression` [ RunTime:0.0349s ]
+SQL: SELECT * FROM `jx_impression` WHERE ( goods_id=29 ) ORDER BY count desc LIMIT 8   [ RunTime:0.0004s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000259s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000325s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.064427s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.064479s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000559s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000596s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001048s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001110s ]
+
+[ 2019-02-14T23:18:35+08:00 ] 127.0.0.1 /Public/Home/images/zoomloader.gif
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000488s ]
+

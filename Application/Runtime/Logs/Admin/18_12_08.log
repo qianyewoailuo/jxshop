@@ -1,0 +1,1133 @@
+[ 2018-12-08T20:02:19+08:00 ] 127.0.0.1 /Admin/Goods/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000017s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000537s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001605s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001727s ]
+SQL: SELECT * FROM `jx_category`  [ RunTime:0.0004s ]
+NOTIC: [2048] Declaration of Admin\Model\GoodsModel::_after_insert() should be compatible with Think\Model::_after_insert($data, $options) F:\wamp\ThinkPHP_Project\jxshop\Application\Admin\Model\GoodsModel.class.php 第 370 行.
+SQL: SELECT COUNT(*) AS tp_count FROM `jx_goods` WHERE ( isdel=1 ) LIMIT 1   [ RunTime:0.0004s ]
+SQL: SELECT * FROM `jx_goods` WHERE ( isdel=1 ) ORDER BY id desc LIMIT 0,6   [ RunTime:0.0006s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000069s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000109s ]
+NOTIC: [8] Undefined index: cate_id F:\wamp\ThinkPHP_Project\jxshop\Application\Runtime\Cache\Admin\9ce8eac8d2713f300aacb86a396bc850.php 第 35 行.
+NOTIC: [8] Undefined index: cate_id F:\wamp\ThinkPHP_Project\jxshop\Application\Runtime\Cache\Admin\9ce8eac8d2713f300aacb86a396bc850.php 第 35 行.
+NOTIC: [8] Undefined index: cate_id F:\wamp\ThinkPHP_Project\jxshop\Application\Runtime\Cache\Admin\9ce8eac8d2713f300aacb86a396bc850.php 第 35 行.
+NOTIC: [8] Undefined index: cate_id F:\wamp\ThinkPHP_Project\jxshop\Application\Runtime\Cache\Admin\9ce8eac8d2713f300aacb86a396bc850.php 第 35 行.
+NOTIC: [8] Undefined index: cate_id F:\wamp\ThinkPHP_Project\jxshop\Application\Runtime\Cache\Admin\9ce8eac8d2713f300aacb86a396bc850.php 第 35 行.
+NOTIC: [8] Undefined index: cate_id F:\wamp\ThinkPHP_Project\jxshop\Application\Runtime\Cache\Admin\9ce8eac8d2713f300aacb86a396bc850.php 第 35 行.
+NOTIC: [8] Undefined index: cate_id F:\wamp\ThinkPHP_Project\jxshop\Application\Runtime\Cache\Admin\9ce8eac8d2713f300aacb86a396bc850.php 第 35 行.
+NOTIC: [8] Undefined index: cate_id F:\wamp\ThinkPHP_Project\jxshop\Application\Runtime\Cache\Admin\9ce8eac8d2713f300aacb86a396bc850.php 第 35 行.
+NOTIC: [8] Undefined index: cate_id F:\wamp\ThinkPHP_Project\jxshop\Application\Runtime\Cache\Admin\9ce8eac8d2713f300aacb86a396bc850.php 第 35 行.
+NOTIC: [8] Undefined index: cate_id F:\wamp\ThinkPHP_Project\jxshop\Application\Runtime\Cache\Admin\9ce8eac8d2713f300aacb86a396bc850.php 第 35 行.
+NOTIC: [8] Undefined index: cate_id F:\wamp\ThinkPHP_Project\jxshop\Application\Runtime\Cache\Admin\9ce8eac8d2713f300aacb86a396bc850.php 第 35 行.
+NOTIC: [8] Undefined index: cate_id F:\wamp\ThinkPHP_Project\jxshop\Application\Runtime\Cache\Admin\9ce8eac8d2713f300aacb86a396bc850.php 第 35 行.
+NOTIC: [8] Undefined index: cate_id F:\wamp\ThinkPHP_Project\jxshop\Application\Runtime\Cache\Admin\9ce8eac8d2713f300aacb86a396bc850.php 第 35 行.
+NOTIC: [8] Undefined index: cate_id F:\wamp\ThinkPHP_Project\jxshop\Application\Runtime\Cache\Admin\9ce8eac8d2713f300aacb86a396bc850.php 第 35 行.
+NOTIC: [8] Undefined index: cate_id F:\wamp\ThinkPHP_Project\jxshop\Application\Runtime\Cache\Admin\9ce8eac8d2713f300aacb86a396bc850.php 第 35 行.
+NOTIC: [8] Undefined index: cate_id F:\wamp\ThinkPHP_Project\jxshop\Application\Runtime\Cache\Admin\9ce8eac8d2713f300aacb86a396bc850.php 第 35 行.
+NOTIC: [8] Undefined index: cate_id F:\wamp\ThinkPHP_Project\jxshop\Application\Runtime\Cache\Admin\9ce8eac8d2713f300aacb86a396bc850.php 第 35 行.
+NOTIC: [8] Undefined index: cate_id F:\wamp\ThinkPHP_Project\jxshop\Application\Runtime\Cache\Admin\9ce8eac8d2713f300aacb86a396bc850.php 第 35 行.
+NOTIC: [8] Undefined index: cate_id F:\wamp\ThinkPHP_Project\jxshop\Application\Runtime\Cache\Admin\9ce8eac8d2713f300aacb86a396bc850.php 第 35 行.
+NOTIC: [8] Undefined index: cate_id F:\wamp\ThinkPHP_Project\jxshop\Application\Runtime\Cache\Admin\9ce8eac8d2713f300aacb86a396bc850.php 第 35 行.
+NOTIC: [8] Undefined index: cate_id F:\wamp\ThinkPHP_Project\jxshop\Application\Runtime\Cache\Admin\9ce8eac8d2713f300aacb86a396bc850.php 第 35 行.
+NOTIC: [8] Undefined index: cate_id F:\wamp\ThinkPHP_Project\jxshop\Application\Runtime\Cache\Admin\9ce8eac8d2713f300aacb86a396bc850.php 第 35 行.
+NOTIC: [8] Undefined index: cate_id F:\wamp\ThinkPHP_Project\jxshop\Application\Runtime\Cache\Admin\9ce8eac8d2713f300aacb86a396bc850.php 第 35 行.
+NOTIC: [8] Undefined index: cate_id F:\wamp\ThinkPHP_Project\jxshop\Application\Runtime\Cache\Admin\9ce8eac8d2713f300aacb86a396bc850.php 第 35 行.
+NOTIC: [8] Undefined index: cate_id F:\wamp\ThinkPHP_Project\jxshop\Application\Runtime\Cache\Admin\9ce8eac8d2713f300aacb86a396bc850.php 第 35 行.
+NOTIC: [8] Undefined index: cate_id F:\wamp\ThinkPHP_Project\jxshop\Application\Runtime\Cache\Admin\9ce8eac8d2713f300aacb86a396bc850.php 第 35 行.
+NOTIC: [8] Undefined index: cate_id F:\wamp\ThinkPHP_Project\jxshop\Application\Runtime\Cache\Admin\9ce8eac8d2713f300aacb86a396bc850.php 第 35 行.
+NOTIC: [8] Undefined index: intro_type F:\wamp\ThinkPHP_Project\jxshop\Application\Runtime\Cache\Admin\9ce8eac8d2713f300aacb86a396bc850.php 第 40 行.
+NOTIC: [8] Undefined index: intro_type F:\wamp\ThinkPHP_Project\jxshop\Application\Runtime\Cache\Admin\9ce8eac8d2713f300aacb86a396bc850.php 第 41 行.
+NOTIC: [8] Undefined index: intro_type F:\wamp\ThinkPHP_Project\jxshop\Application\Runtime\Cache\Admin\9ce8eac8d2713f300aacb86a396bc850.php 第 42 行.
+NOTIC: [8] Undefined index: is_sale F:\wamp\ThinkPHP_Project\jxshop\Application\Runtime\Cache\Admin\9ce8eac8d2713f300aacb86a396bc850.php 第 46 行.
+NOTIC: [8] Undefined index: is_sale F:\wamp\ThinkPHP_Project\jxshop\Application\Runtime\Cache\Admin\9ce8eac8d2713f300aacb86a396bc850.php 第 47 行.
+NOTIC: [8] Undefined index: is_sale F:\wamp\ThinkPHP_Project\jxshop\Application\Runtime\Cache\Admin\9ce8eac8d2713f300aacb86a396bc850.php 第 48 行.
+NOTIC: [8] Undefined index: is_desc F:\wamp\ThinkPHP_Project\jxshop\Application\Runtime\Cache\Admin\9ce8eac8d2713f300aacb86a396bc850.php 第 53 行.
+NOTIC: [8] Undefined index: is_desc F:\wamp\ThinkPHP_Project\jxshop\Application\Runtime\Cache\Admin\9ce8eac8d2713f300aacb86a396bc850.php 第 54 行.
+NOTIC: [8] Undefined index: keyword F:\wamp\ThinkPHP_Project\jxshop\Application\Runtime\Cache\Admin\9ce8eac8d2713f300aacb86a396bc850.php 第 57 行.
+NOTIC: [8] Use of undefined constant yes - assumed 'yes' F:\wamp\ThinkPHP_Project\jxshop\Application\Runtime\Cache\Admin\9ce8eac8d2713f300aacb86a396bc850.php 第 82 行.
+NOTIC: [8] Use of undefined constant yes - assumed 'yes' F:\wamp\ThinkPHP_Project\jxshop\Application\Runtime\Cache\Admin\9ce8eac8d2713f300aacb86a396bc850.php 第 83 行.
+NOTIC: [8] Use of undefined constant yes - assumed 'yes' F:\wamp\ThinkPHP_Project\jxshop\Application\Runtime\Cache\Admin\9ce8eac8d2713f300aacb86a396bc850.php 第 82 行.
+NOTIC: [8] Use of undefined constant yes - assumed 'yes' F:\wamp\ThinkPHP_Project\jxshop\Application\Runtime\Cache\Admin\9ce8eac8d2713f300aacb86a396bc850.php 第 83 行.
+NOTIC: [8] Use of undefined constant yes - assumed 'yes' F:\wamp\ThinkPHP_Project\jxshop\Application\Runtime\Cache\Admin\9ce8eac8d2713f300aacb86a396bc850.php 第 82 行.
+NOTIC: [8] Use of undefined constant no - assumed 'no' F:\wamp\ThinkPHP_Project\jxshop\Application\Runtime\Cache\Admin\9ce8eac8d2713f300aacb86a396bc850.php 第 83 行.
+NOTIC: [8] Use of undefined constant yes - assumed 'yes' F:\wamp\ThinkPHP_Project\jxshop\Application\Runtime\Cache\Admin\9ce8eac8d2713f300aacb86a396bc850.php 第 82 行.
+NOTIC: [8] Use of undefined constant no - assumed 'no' F:\wamp\ThinkPHP_Project\jxshop\Application\Runtime\Cache\Admin\9ce8eac8d2713f300aacb86a396bc850.php 第 83 行.
+NOTIC: [8] Use of undefined constant yes - assumed 'yes' F:\wamp\ThinkPHP_Project\jxshop\Application\Runtime\Cache\Admin\9ce8eac8d2713f300aacb86a396bc850.php 第 82 行.
+NOTIC: [8] Use of undefined constant no - assumed 'no' F:\wamp\ThinkPHP_Project\jxshop\Application\Runtime\Cache\Admin\9ce8eac8d2713f300aacb86a396bc850.php 第 83 行.
+NOTIC: [8] Use of undefined constant yes - assumed 'yes' F:\wamp\ThinkPHP_Project\jxshop\Application\Runtime\Cache\Admin\9ce8eac8d2713f300aacb86a396bc850.php 第 82 行.
+NOTIC: [8] Use of undefined constant yes - assumed 'yes' F:\wamp\ThinkPHP_Project\jxshop\Application\Runtime\Cache\Admin\9ce8eac8d2713f300aacb86a396bc850.php 第 83 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.039308s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.039353s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000609s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000652s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000875s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000925s ]
+
+[ 2018-12-08T20:08:32+08:00 ] 127.0.0.1 /Admin/Goods/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000374s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000649s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000704s ]
+SQL: SELECT * FROM `jx_category`  [ RunTime:0.0003s ]
+NOTIC: [2048] Declaration of Admin\Model\GoodsModel::_after_insert() should be compatible with Think\Model::_after_insert($data, $options) F:\wamp\ThinkPHP_Project\jxshop\Application\Admin\Model\GoodsModel.class.php 第 373 行.
+SQL: SELECT COUNT(*) AS tp_count FROM `jx_goods` WHERE ( isdel=1 ) LIMIT 1   [ RunTime:0.0004s ]
+SQL: SELECT * FROM `jx_goods` WHERE ( isdel=1 ) ORDER BY id desc LIMIT 0,6   [ RunTime:0.0006s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000111s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000156s ]
+NOTIC: [8] Undefined index: cate_id F:\wamp\ThinkPHP_Project\jxshop\Application\Runtime\Cache\Admin\9ce8eac8d2713f300aacb86a396bc850.php 第 35 行.
+NOTIC: [8] Undefined index: cate_id F:\wamp\ThinkPHP_Project\jxshop\Application\Runtime\Cache\Admin\9ce8eac8d2713f300aacb86a396bc850.php 第 35 行.
+NOTIC: [8] Undefined index: cate_id F:\wamp\ThinkPHP_Project\jxshop\Application\Runtime\Cache\Admin\9ce8eac8d2713f300aacb86a396bc850.php 第 35 行.
+NOTIC: [8] Undefined index: cate_id F:\wamp\ThinkPHP_Project\jxshop\Application\Runtime\Cache\Admin\9ce8eac8d2713f300aacb86a396bc850.php 第 35 行.
+NOTIC: [8] Undefined index: cate_id F:\wamp\ThinkPHP_Project\jxshop\Application\Runtime\Cache\Admin\9ce8eac8d2713f300aacb86a396bc850.php 第 35 行.
+NOTIC: [8] Undefined index: cate_id F:\wamp\ThinkPHP_Project\jxshop\Application\Runtime\Cache\Admin\9ce8eac8d2713f300aacb86a396bc850.php 第 35 行.
+NOTIC: [8] Undefined index: cate_id F:\wamp\ThinkPHP_Project\jxshop\Application\Runtime\Cache\Admin\9ce8eac8d2713f300aacb86a396bc850.php 第 35 行.
+NOTIC: [8] Undefined index: cate_id F:\wamp\ThinkPHP_Project\jxshop\Application\Runtime\Cache\Admin\9ce8eac8d2713f300aacb86a396bc850.php 第 35 行.
+NOTIC: [8] Undefined index: cate_id F:\wamp\ThinkPHP_Project\jxshop\Application\Runtime\Cache\Admin\9ce8eac8d2713f300aacb86a396bc850.php 第 35 行.
+NOTIC: [8] Undefined index: cate_id F:\wamp\ThinkPHP_Project\jxshop\Application\Runtime\Cache\Admin\9ce8eac8d2713f300aacb86a396bc850.php 第 35 行.
+NOTIC: [8] Undefined index: cate_id F:\wamp\ThinkPHP_Project\jxshop\Application\Runtime\Cache\Admin\9ce8eac8d2713f300aacb86a396bc850.php 第 35 行.
+NOTIC: [8] Undefined index: cate_id F:\wamp\ThinkPHP_Project\jxshop\Application\Runtime\Cache\Admin\9ce8eac8d2713f300aacb86a396bc850.php 第 35 行.
+NOTIC: [8] Undefined index: cate_id F:\wamp\ThinkPHP_Project\jxshop\Application\Runtime\Cache\Admin\9ce8eac8d2713f300aacb86a396bc850.php 第 35 行.
+NOTIC: [8] Undefined index: cate_id F:\wamp\ThinkPHP_Project\jxshop\Application\Runtime\Cache\Admin\9ce8eac8d2713f300aacb86a396bc850.php 第 35 行.
+NOTIC: [8] Undefined index: cate_id F:\wamp\ThinkPHP_Project\jxshop\Application\Runtime\Cache\Admin\9ce8eac8d2713f300aacb86a396bc850.php 第 35 行.
+NOTIC: [8] Undefined index: cate_id F:\wamp\ThinkPHP_Project\jxshop\Application\Runtime\Cache\Admin\9ce8eac8d2713f300aacb86a396bc850.php 第 35 行.
+NOTIC: [8] Undefined index: cate_id F:\wamp\ThinkPHP_Project\jxshop\Application\Runtime\Cache\Admin\9ce8eac8d2713f300aacb86a396bc850.php 第 35 行.
+NOTIC: [8] Undefined index: cate_id F:\wamp\ThinkPHP_Project\jxshop\Application\Runtime\Cache\Admin\9ce8eac8d2713f300aacb86a396bc850.php 第 35 行.
+NOTIC: [8] Undefined index: cate_id F:\wamp\ThinkPHP_Project\jxshop\Application\Runtime\Cache\Admin\9ce8eac8d2713f300aacb86a396bc850.php 第 35 行.
+NOTIC: [8] Undefined index: cate_id F:\wamp\ThinkPHP_Project\jxshop\Application\Runtime\Cache\Admin\9ce8eac8d2713f300aacb86a396bc850.php 第 35 行.
+NOTIC: [8] Undefined index: cate_id F:\wamp\ThinkPHP_Project\jxshop\Application\Runtime\Cache\Admin\9ce8eac8d2713f300aacb86a396bc850.php 第 35 行.
+NOTIC: [8] Undefined index: cate_id F:\wamp\ThinkPHP_Project\jxshop\Application\Runtime\Cache\Admin\9ce8eac8d2713f300aacb86a396bc850.php 第 35 行.
+NOTIC: [8] Undefined index: cate_id F:\wamp\ThinkPHP_Project\jxshop\Application\Runtime\Cache\Admin\9ce8eac8d2713f300aacb86a396bc850.php 第 35 行.
+NOTIC: [8] Undefined index: cate_id F:\wamp\ThinkPHP_Project\jxshop\Application\Runtime\Cache\Admin\9ce8eac8d2713f300aacb86a396bc850.php 第 35 行.
+NOTIC: [8] Undefined index: cate_id F:\wamp\ThinkPHP_Project\jxshop\Application\Runtime\Cache\Admin\9ce8eac8d2713f300aacb86a396bc850.php 第 35 行.
+NOTIC: [8] Undefined index: cate_id F:\wamp\ThinkPHP_Project\jxshop\Application\Runtime\Cache\Admin\9ce8eac8d2713f300aacb86a396bc850.php 第 35 行.
+NOTIC: [8] Undefined index: cate_id F:\wamp\ThinkPHP_Project\jxshop\Application\Runtime\Cache\Admin\9ce8eac8d2713f300aacb86a396bc850.php 第 35 行.
+NOTIC: [8] Undefined index: intro_type F:\wamp\ThinkPHP_Project\jxshop\Application\Runtime\Cache\Admin\9ce8eac8d2713f300aacb86a396bc850.php 第 40 行.
+NOTIC: [8] Undefined index: intro_type F:\wamp\ThinkPHP_Project\jxshop\Application\Runtime\Cache\Admin\9ce8eac8d2713f300aacb86a396bc850.php 第 41 行.
+NOTIC: [8] Undefined index: intro_type F:\wamp\ThinkPHP_Project\jxshop\Application\Runtime\Cache\Admin\9ce8eac8d2713f300aacb86a396bc850.php 第 42 行.
+NOTIC: [8] Undefined index: is_sale F:\wamp\ThinkPHP_Project\jxshop\Application\Runtime\Cache\Admin\9ce8eac8d2713f300aacb86a396bc850.php 第 46 行.
+NOTIC: [8] Undefined index: is_sale F:\wamp\ThinkPHP_Project\jxshop\Application\Runtime\Cache\Admin\9ce8eac8d2713f300aacb86a396bc850.php 第 47 行.
+NOTIC: [8] Undefined index: is_sale F:\wamp\ThinkPHP_Project\jxshop\Application\Runtime\Cache\Admin\9ce8eac8d2713f300aacb86a396bc850.php 第 48 行.
+NOTIC: [8] Undefined index: is_desc F:\wamp\ThinkPHP_Project\jxshop\Application\Runtime\Cache\Admin\9ce8eac8d2713f300aacb86a396bc850.php 第 53 行.
+NOTIC: [8] Undefined index: is_desc F:\wamp\ThinkPHP_Project\jxshop\Application\Runtime\Cache\Admin\9ce8eac8d2713f300aacb86a396bc850.php 第 54 行.
+NOTIC: [8] Undefined index: keyword F:\wamp\ThinkPHP_Project\jxshop\Application\Runtime\Cache\Admin\9ce8eac8d2713f300aacb86a396bc850.php 第 57 行.
+NOTIC: [8] Use of undefined constant yes - assumed 'yes' F:\wamp\ThinkPHP_Project\jxshop\Application\Runtime\Cache\Admin\9ce8eac8d2713f300aacb86a396bc850.php 第 82 行.
+NOTIC: [8] Use of undefined constant yes - assumed 'yes' F:\wamp\ThinkPHP_Project\jxshop\Application\Runtime\Cache\Admin\9ce8eac8d2713f300aacb86a396bc850.php 第 83 行.
+NOTIC: [8] Use of undefined constant yes - assumed 'yes' F:\wamp\ThinkPHP_Project\jxshop\Application\Runtime\Cache\Admin\9ce8eac8d2713f300aacb86a396bc850.php 第 82 行.
+NOTIC: [8] Use of undefined constant yes - assumed 'yes' F:\wamp\ThinkPHP_Project\jxshop\Application\Runtime\Cache\Admin\9ce8eac8d2713f300aacb86a396bc850.php 第 83 行.
+NOTIC: [8] Use of undefined constant yes - assumed 'yes' F:\wamp\ThinkPHP_Project\jxshop\Application\Runtime\Cache\Admin\9ce8eac8d2713f300aacb86a396bc850.php 第 82 行.
+NOTIC: [8] Use of undefined constant no - assumed 'no' F:\wamp\ThinkPHP_Project\jxshop\Application\Runtime\Cache\Admin\9ce8eac8d2713f300aacb86a396bc850.php 第 83 行.
+NOTIC: [8] Use of undefined constant yes - assumed 'yes' F:\wamp\ThinkPHP_Project\jxshop\Application\Runtime\Cache\Admin\9ce8eac8d2713f300aacb86a396bc850.php 第 82 行.
+NOTIC: [8] Use of undefined constant no - assumed 'no' F:\wamp\ThinkPHP_Project\jxshop\Application\Runtime\Cache\Admin\9ce8eac8d2713f300aacb86a396bc850.php 第 83 行.
+NOTIC: [8] Use of undefined constant yes - assumed 'yes' F:\wamp\ThinkPHP_Project\jxshop\Application\Runtime\Cache\Admin\9ce8eac8d2713f300aacb86a396bc850.php 第 82 行.
+NOTIC: [8] Use of undefined constant no - assumed 'no' F:\wamp\ThinkPHP_Project\jxshop\Application\Runtime\Cache\Admin\9ce8eac8d2713f300aacb86a396bc850.php 第 83 行.
+NOTIC: [8] Use of undefined constant yes - assumed 'yes' F:\wamp\ThinkPHP_Project\jxshop\Application\Runtime\Cache\Admin\9ce8eac8d2713f300aacb86a396bc850.php 第 82 行.
+NOTIC: [8] Use of undefined constant yes - assumed 'yes' F:\wamp\ThinkPHP_Project\jxshop\Application\Runtime\Cache\Admin\9ce8eac8d2713f300aacb86a396bc850.php 第 83 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.011565s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.011605s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000521s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000565s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000898s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000978s ]
+
+[ 2018-12-08T20:08:38+08:00 ] 127.0.0.1 /Admin/Goods/edit/goods_id/29.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000375s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000539s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000596s ]
+NOTIC: [2048] Declaration of Admin\Model\GoodsModel::_after_insert() should be compatible with Think\Model::_after_insert($data, $options) F:\wamp\ThinkPHP_Project\jxshop\Application\Admin\Model\GoodsModel.class.php 第 9 行.
+SQL: SELECT * FROM `jx_goods` WHERE ( id=29 ) LIMIT 1   [ RunTime:0.0004s ]
+SQL: SELECT * FROM `jx_category`  [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `jx_goods_cate` [ RunTime:0.0030s ]
+SQL: SELECT * FROM `jx_goods_cate` WHERE ( goods_id=29 )  [ RunTime:0.0003s ]
+SQL: SELECT * FROM `jx_type`  [ RunTime:0.0005s ]
+SQL: SELECT a.*,b.attr_name,b.attr_type,b.attr_input_type,b.attr_value FROM jx_goods_attr a left join jx_attribute b on a.attr_id = b.id  WHERE ( goods_id=29 )  [ RunTime:0.0004s ]
+SQL: SELECT * FROM `jx_goods_img` WHERE ( goods_id=29 )  [ RunTime:0.0002s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000105s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000143s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.110556s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.110596s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000369s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000395s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002821s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002870s ]
+
+[ 2018-12-08T20:09:01+08:00 ] 127.0.0.1 /Admin/Goods/edit/goods_id/29.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000010s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000422s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000528s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000563s ]
+NOTIC: [2048] Declaration of Admin\Model\GoodsModel::_after_insert() should be compatible with Think\Model::_after_insert($data, $options) F:\wamp\ThinkPHP_Project\jxshop\Application\Admin\Model\GoodsModel.class.php 第 9 行.
+NOTIC: [8] Undefined index: validate F:\wamp\ThinkPHP_Project\jxshop\ThinkPHP\Library\Think\Model.class.php 第 1185 行.
+NOTIC: [8] Undefined index: auto F:\wamp\ThinkPHP_Project\jxshop\ThinkPHP\Library\Think\Model.class.php 第 1128 行.
+SQL: SELECT * FROM `jx_goods` WHERE ( goods_sn = '5bfa6ed4abfbf' AND id != 29 ) LIMIT 1   [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `jx_goods_cate` [ RunTime:0.0029s ]
+SQL: DELETE FROM `jx_goods_cate` WHERE ( goods_id = 29 ) [ RunTime:0.1489s ]
+SQL: INSERT INTO `jx_goods_cate` (`goods_id`,`cate_id`) VALUES ('29','12'),('29','8') [ RunTime:0.1915s ]
+SQL: DELETE FROM `jx_goods_attr` WHERE ( goods_id=29 ) [ RunTime:0.1596s ]
+SQL: INSERT INTO `jx_goods_attr` (`goods_id`,`attr_id`,`attr_values`) VALUES ('29','17','55寸'),('29','18','白色'),('29','18','银色'),('29','18','黑色'),('29','19','I3'),('29','19','I5') [ RunTime:0.1020s ]
+NOTIC: [2] finfo_file(): Empty filename or path F:\wamp\ThinkPHP_Project\jxshop\ThinkPHP\Library\Think\Upload.class.php 第 152 行.
+NOTIC: [2] Invalid argument supplied for foreach() F:\wamp\ThinkPHP_Project\jxshop\Application\Admin\Model\GoodsModel.class.php 第 45 行.
+NOTIC: [8] Undefined variable: list F:\wamp\ThinkPHP_Project\jxshop\Application\Admin\Model\GoodsModel.class.php 第 58 行.
+SQL: UPDATE `jx_goods` SET `goods_name`='Eg智能电视 54寸4K屏 终极巨献测试专用电视',`goods_sn`='5bfa6ed4abfbf',`cx_price`='444.00',`start`='1543391808',`end`='1548662208',`cate_id`='7',`shop_price`='4999.00',`is_sale`='1',`is_hot`='1',`is_new`='1',`is_rec`='1',`market_price`='4999.00',`type_id`='3',`goods_body`='&lt;p&gt;Eg智能电视&lt;/p&gt;' WHERE `id` = '29' [ RunTime:0.6858s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000042s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000090s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.030833s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.030899s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000597s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000634s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000836s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000875s ]
+
+[ 2018-12-08T20:09:03+08:00 ] 127.0.0.1 /Admin/Goods/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000010s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000444s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001047s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001096s ]
+SQL: SELECT * FROM `jx_category`  [ RunTime:0.0003s ]
+NOTIC: [2048] Declaration of Admin\Model\GoodsModel::_after_insert() should be compatible with Think\Model::_after_insert($data, $options) F:\wamp\ThinkPHP_Project\jxshop\Application\Admin\Model\GoodsModel.class.php 第 373 行.
+SQL: SELECT COUNT(*) AS tp_count FROM `jx_goods` WHERE ( isdel=1 ) LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `jx_goods` WHERE ( isdel=1 ) ORDER BY id desc LIMIT 0,6   [ RunTime:0.0004s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000064s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000101s ]
+NOTIC: [8] Undefined index: cate_id F:\wamp\ThinkPHP_Project\jxshop\Application\Runtime\Cache\Admin\9ce8eac8d2713f300aacb86a396bc850.php 第 35 行.
+NOTIC: [8] Undefined index: cate_id F:\wamp\ThinkPHP_Project\jxshop\Application\Runtime\Cache\Admin\9ce8eac8d2713f300aacb86a396bc850.php 第 35 行.
+NOTIC: [8] Undefined index: cate_id F:\wamp\ThinkPHP_Project\jxshop\Application\Runtime\Cache\Admin\9ce8eac8d2713f300aacb86a396bc850.php 第 35 行.
+NOTIC: [8] Undefined index: cate_id F:\wamp\ThinkPHP_Project\jxshop\Application\Runtime\Cache\Admin\9ce8eac8d2713f300aacb86a396bc850.php 第 35 行.
+NOTIC: [8] Undefined index: cate_id F:\wamp\ThinkPHP_Project\jxshop\Application\Runtime\Cache\Admin\9ce8eac8d2713f300aacb86a396bc850.php 第 35 行.
+NOTIC: [8] Undefined index: cate_id F:\wamp\ThinkPHP_Project\jxshop\Application\Runtime\Cache\Admin\9ce8eac8d2713f300aacb86a396bc850.php 第 35 行.
+NOTIC: [8] Undefined index: cate_id F:\wamp\ThinkPHP_Project\jxshop\Application\Runtime\Cache\Admin\9ce8eac8d2713f300aacb86a396bc850.php 第 35 行.
+NOTIC: [8] Undefined index: cate_id F:\wamp\ThinkPHP_Project\jxshop\Application\Runtime\Cache\Admin\9ce8eac8d2713f300aacb86a396bc850.php 第 35 行.
+NOTIC: [8] Undefined index: cate_id F:\wamp\ThinkPHP_Project\jxshop\Application\Runtime\Cache\Admin\9ce8eac8d2713f300aacb86a396bc850.php 第 35 行.
+NOTIC: [8] Undefined index: cate_id F:\wamp\ThinkPHP_Project\jxshop\Application\Runtime\Cache\Admin\9ce8eac8d2713f300aacb86a396bc850.php 第 35 行.
+NOTIC: [8] Undefined index: cate_id F:\wamp\ThinkPHP_Project\jxshop\Application\Runtime\Cache\Admin\9ce8eac8d2713f300aacb86a396bc850.php 第 35 行.
+NOTIC: [8] Undefined index: cate_id F:\wamp\ThinkPHP_Project\jxshop\Application\Runtime\Cache\Admin\9ce8eac8d2713f300aacb86a396bc850.php 第 35 行.
+NOTIC: [8] Undefined index: cate_id F:\wamp\ThinkPHP_Project\jxshop\Application\Runtime\Cache\Admin\9ce8eac8d2713f300aacb86a396bc850.php 第 35 行.
+NOTIC: [8] Undefined index: cate_id F:\wamp\ThinkPHP_Project\jxshop\Application\Runtime\Cache\Admin\9ce8eac8d2713f300aacb86a396bc850.php 第 35 行.
+NOTIC: [8] Undefined index: cate_id F:\wamp\ThinkPHP_Project\jxshop\Application\Runtime\Cache\Admin\9ce8eac8d2713f300aacb86a396bc850.php 第 35 行.
+NOTIC: [8] Undefined index: cate_id F:\wamp\ThinkPHP_Project\jxshop\Application\Runtime\Cache\Admin\9ce8eac8d2713f300aacb86a396bc850.php 第 35 行.
+NOTIC: [8] Undefined index: cate_id F:\wamp\ThinkPHP_Project\jxshop\Application\Runtime\Cache\Admin\9ce8eac8d2713f300aacb86a396bc850.php 第 35 行.
+NOTIC: [8] Undefined index: cate_id F:\wamp\ThinkPHP_Project\jxshop\Application\Runtime\Cache\Admin\9ce8eac8d2713f300aacb86a396bc850.php 第 35 行.
+NOTIC: [8] Undefined index: cate_id F:\wamp\ThinkPHP_Project\jxshop\Application\Runtime\Cache\Admin\9ce8eac8d2713f300aacb86a396bc850.php 第 35 行.
+NOTIC: [8] Undefined index: cate_id F:\wamp\ThinkPHP_Project\jxshop\Application\Runtime\Cache\Admin\9ce8eac8d2713f300aacb86a396bc850.php 第 35 行.
+NOTIC: [8] Undefined index: cate_id F:\wamp\ThinkPHP_Project\jxshop\Application\Runtime\Cache\Admin\9ce8eac8d2713f300aacb86a396bc850.php 第 35 行.
+NOTIC: [8] Undefined index: cate_id F:\wamp\ThinkPHP_Project\jxshop\Application\Runtime\Cache\Admin\9ce8eac8d2713f300aacb86a396bc850.php 第 35 行.
+NOTIC: [8] Undefined index: cate_id F:\wamp\ThinkPHP_Project\jxshop\Application\Runtime\Cache\Admin\9ce8eac8d2713f300aacb86a396bc850.php 第 35 行.
+NOTIC: [8] Undefined index: cate_id F:\wamp\ThinkPHP_Project\jxshop\Application\Runtime\Cache\Admin\9ce8eac8d2713f300aacb86a396bc850.php 第 35 行.
+NOTIC: [8] Undefined index: cate_id F:\wamp\ThinkPHP_Project\jxshop\Application\Runtime\Cache\Admin\9ce8eac8d2713f300aacb86a396bc850.php 第 35 行.
+NOTIC: [8] Undefined index: cate_id F:\wamp\ThinkPHP_Project\jxshop\Application\Runtime\Cache\Admin\9ce8eac8d2713f300aacb86a396bc850.php 第 35 行.
+NOTIC: [8] Undefined index: cate_id F:\wamp\ThinkPHP_Project\jxshop\Application\Runtime\Cache\Admin\9ce8eac8d2713f300aacb86a396bc850.php 第 35 行.
+NOTIC: [8] Undefined index: intro_type F:\wamp\ThinkPHP_Project\jxshop\Application\Runtime\Cache\Admin\9ce8eac8d2713f300aacb86a396bc850.php 第 40 行.
+NOTIC: [8] Undefined index: intro_type F:\wamp\ThinkPHP_Project\jxshop\Application\Runtime\Cache\Admin\9ce8eac8d2713f300aacb86a396bc850.php 第 41 行.
+NOTIC: [8] Undefined index: intro_type F:\wamp\ThinkPHP_Project\jxshop\Application\Runtime\Cache\Admin\9ce8eac8d2713f300aacb86a396bc850.php 第 42 行.
+NOTIC: [8] Undefined index: is_sale F:\wamp\ThinkPHP_Project\jxshop\Application\Runtime\Cache\Admin\9ce8eac8d2713f300aacb86a396bc850.php 第 46 行.
+NOTIC: [8] Undefined index: is_sale F:\wamp\ThinkPHP_Project\jxshop\Application\Runtime\Cache\Admin\9ce8eac8d2713f300aacb86a396bc850.php 第 47 行.
+NOTIC: [8] Undefined index: is_sale F:\wamp\ThinkPHP_Project\jxshop\Application\Runtime\Cache\Admin\9ce8eac8d2713f300aacb86a396bc850.php 第 48 行.
+NOTIC: [8] Undefined index: is_desc F:\wamp\ThinkPHP_Project\jxshop\Application\Runtime\Cache\Admin\9ce8eac8d2713f300aacb86a396bc850.php 第 53 行.
+NOTIC: [8] Undefined index: is_desc F:\wamp\ThinkPHP_Project\jxshop\Application\Runtime\Cache\Admin\9ce8eac8d2713f300aacb86a396bc850.php 第 54 行.
+NOTIC: [8] Undefined index: keyword F:\wamp\ThinkPHP_Project\jxshop\Application\Runtime\Cache\Admin\9ce8eac8d2713f300aacb86a396bc850.php 第 57 行.
+NOTIC: [8] Use of undefined constant yes - assumed 'yes' F:\wamp\ThinkPHP_Project\jxshop\Application\Runtime\Cache\Admin\9ce8eac8d2713f300aacb86a396bc850.php 第 82 行.
+NOTIC: [8] Use of undefined constant yes - assumed 'yes' F:\wamp\ThinkPHP_Project\jxshop\Application\Runtime\Cache\Admin\9ce8eac8d2713f300aacb86a396bc850.php 第 83 行.
+NOTIC: [8] Use of undefined constant yes - assumed 'yes' F:\wamp\ThinkPHP_Project\jxshop\Application\Runtime\Cache\Admin\9ce8eac8d2713f300aacb86a396bc850.php 第 82 行.
+NOTIC: [8] Use of undefined constant yes - assumed 'yes' F:\wamp\ThinkPHP_Project\jxshop\Application\Runtime\Cache\Admin\9ce8eac8d2713f300aacb86a396bc850.php 第 83 行.
+NOTIC: [8] Use of undefined constant yes - assumed 'yes' F:\wamp\ThinkPHP_Project\jxshop\Application\Runtime\Cache\Admin\9ce8eac8d2713f300aacb86a396bc850.php 第 82 行.
+NOTIC: [8] Use of undefined constant no - assumed 'no' F:\wamp\ThinkPHP_Project\jxshop\Application\Runtime\Cache\Admin\9ce8eac8d2713f300aacb86a396bc850.php 第 83 行.
+NOTIC: [8] Use of undefined constant yes - assumed 'yes' F:\wamp\ThinkPHP_Project\jxshop\Application\Runtime\Cache\Admin\9ce8eac8d2713f300aacb86a396bc850.php 第 82 行.
+NOTIC: [8] Use of undefined constant no - assumed 'no' F:\wamp\ThinkPHP_Project\jxshop\Application\Runtime\Cache\Admin\9ce8eac8d2713f300aacb86a396bc850.php 第 83 行.
+NOTIC: [8] Use of undefined constant yes - assumed 'yes' F:\wamp\ThinkPHP_Project\jxshop\Application\Runtime\Cache\Admin\9ce8eac8d2713f300aacb86a396bc850.php 第 82 行.
+NOTIC: [8] Use of undefined constant no - assumed 'no' F:\wamp\ThinkPHP_Project\jxshop\Application\Runtime\Cache\Admin\9ce8eac8d2713f300aacb86a396bc850.php 第 83 行.
+NOTIC: [8] Use of undefined constant yes - assumed 'yes' F:\wamp\ThinkPHP_Project\jxshop\Application\Runtime\Cache\Admin\9ce8eac8d2713f300aacb86a396bc850.php 第 82 行.
+NOTIC: [8] Use of undefined constant yes - assumed 'yes' F:\wamp\ThinkPHP_Project\jxshop\Application\Runtime\Cache\Admin\9ce8eac8d2713f300aacb86a396bc850.php 第 83 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.010611s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.010643s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000579s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000606s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000972s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001019s ]
+
+[ 2018-12-08T20:09:05+08:00 ] 127.0.0.1 /Admin/Goods/edit/goods_id/29.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000452s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000749s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000793s ]
+NOTIC: [2048] Declaration of Admin\Model\GoodsModel::_after_insert() should be compatible with Think\Model::_after_insert($data, $options) F:\wamp\ThinkPHP_Project\jxshop\Application\Admin\Model\GoodsModel.class.php 第 9 行.
+SQL: SELECT * FROM `jx_goods` WHERE ( id=29 ) LIMIT 1   [ RunTime:0.0004s ]
+SQL: SELECT * FROM `jx_category`  [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `jx_goods_cate` [ RunTime:0.0028s ]
+SQL: SELECT * FROM `jx_goods_cate` WHERE ( goods_id=29 )  [ RunTime:0.0002s ]
+SQL: SELECT * FROM `jx_type`  [ RunTime:0.0002s ]
+SQL: SELECT a.*,b.attr_name,b.attr_type,b.attr_input_type,b.attr_value FROM jx_goods_attr a left join jx_attribute b on a.attr_id = b.id  WHERE ( goods_id=29 )  [ RunTime:0.0003s ]
+SQL: SELECT * FROM `jx_goods_img` WHERE ( goods_id=29 )  [ RunTime:0.0004s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000111s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000153s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.015230s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.015271s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000566s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000597s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000833s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000878s ]
+
+[ 2018-12-08T20:09:11+08:00 ] 127.0.0.1 /Admin/Goods/edit/goods_id/29.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000016s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000560s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000840s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000896s ]
+NOTIC: [2048] Declaration of Admin\Model\GoodsModel::_after_insert() should be compatible with Think\Model::_after_insert($data, $options) F:\wamp\ThinkPHP_Project\jxshop\Application\Admin\Model\GoodsModel.class.php 第 9 行.
+SQL: SELECT * FROM `jx_goods` WHERE ( id=29 ) LIMIT 1   [ RunTime:0.0004s ]
+SQL: SELECT * FROM `jx_category`  [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `jx_goods_cate` [ RunTime:0.0028s ]
+SQL: SELECT * FROM `jx_goods_cate` WHERE ( goods_id=29 )  [ RunTime:0.0003s ]
+SQL: SELECT * FROM `jx_type`  [ RunTime:0.0002s ]
+SQL: SELECT a.*,b.attr_name,b.attr_type,b.attr_input_type,b.attr_value FROM jx_goods_attr a left join jx_attribute b on a.attr_id = b.id  WHERE ( goods_id=29 )  [ RunTime:0.0006s ]
+SQL: SELECT * FROM `jx_goods_img` WHERE ( goods_id=29 )  [ RunTime:0.0006s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000122s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000174s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.015298s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.015351s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000628s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000658s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000920s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000972s ]
+
+[ 2018-12-08T20:09:26+08:00 ] 127.0.0.1 /Admin/Goods/edit/goods_id/29.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000455s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000574s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000608s ]
+NOTIC: [2048] Declaration of Admin\Model\GoodsModel::_after_insert() should be compatible with Think\Model::_after_insert($data, $options) F:\wamp\ThinkPHP_Project\jxshop\Application\Admin\Model\GoodsModel.class.php 第 9 行.
+NOTIC: [8] Undefined index: validate F:\wamp\ThinkPHP_Project\jxshop\ThinkPHP\Library\Think\Model.class.php 第 1185 行.
+NOTIC: [8] Undefined index: auto F:\wamp\ThinkPHP_Project\jxshop\ThinkPHP\Library\Think\Model.class.php 第 1128 行.
+SQL: SELECT * FROM `jx_goods` WHERE ( goods_sn = '5bfa6ed4abfbf' AND id != 29 ) LIMIT 1   [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `jx_goods_cate` [ RunTime:0.0027s ]
+SQL: DELETE FROM `jx_goods_cate` WHERE ( goods_id = 29 ) [ RunTime:0.1815s ]
+SQL: INSERT INTO `jx_goods_cate` (`goods_id`,`cate_id`) VALUES ('29','12'),('29','8') [ RunTime:0.1264s ]
+SQL: DELETE FROM `jx_goods_attr` WHERE ( goods_id=29 ) [ RunTime:0.1876s ]
+SQL: INSERT INTO `jx_goods_attr` (`goods_id`,`attr_id`,`attr_values`) VALUES ('29','17','55寸'),('29','18','白色'),('29','18','银色'),('29','18','黑色'),('29','19','I3'),('29','19','I5') [ RunTime:0.0499s ]
+NOTIC: [2] finfo_file(): Empty filename or path F:\wamp\ThinkPHP_Project\jxshop\ThinkPHP\Library\Think\Upload.class.php 第 152 行.
+NOTIC: [2] Invalid argument supplied for foreach() F:\wamp\ThinkPHP_Project\jxshop\Application\Admin\Model\GoodsModel.class.php 第 45 行.
+NOTIC: [8] Undefined variable: list F:\wamp\ThinkPHP_Project\jxshop\Application\Admin\Model\GoodsModel.class.php 第 58 行.
+SQL: UPDATE `jx_goods` SET `goods_name`='Eg智能电视 54寸4K屏 终极巨献测试专用电视',`goods_sn`='5bfa6ed4abfbf',`cx_price`='444.00',`start`='1543391808',`end`='1574927808',`cate_id`='7',`shop_price`='4999.00',`is_sale`='1',`is_hot`='1',`is_new`='1',`is_rec`='1',`market_price`='4999.00',`type_id`='3',`goods_body`='&lt;p&gt;Eg智能电视&lt;/p&gt;' WHERE `id` = '29' [ RunTime:0.0466s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000036s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000072s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.005910s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.005947s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000619s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000654s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000802s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000830s ]
+
+[ 2018-12-08T20:09:27+08:00 ] 127.0.0.1 /Admin/Goods/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000010s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000446s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000751s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000784s ]
+SQL: SELECT * FROM `jx_category`  [ RunTime:0.0003s ]
+NOTIC: [2048] Declaration of Admin\Model\GoodsModel::_after_insert() should be compatible with Think\Model::_after_insert($data, $options) F:\wamp\ThinkPHP_Project\jxshop\Application\Admin\Model\GoodsModel.class.php 第 373 行.
+SQL: SELECT COUNT(*) AS tp_count FROM `jx_goods` WHERE ( isdel=1 ) LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `jx_goods` WHERE ( isdel=1 ) ORDER BY id desc LIMIT 0,6   [ RunTime:0.0004s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000064s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000099s ]
+NOTIC: [8] Undefined index: cate_id F:\wamp\ThinkPHP_Project\jxshop\Application\Runtime\Cache\Admin\9ce8eac8d2713f300aacb86a396bc850.php 第 35 行.
+NOTIC: [8] Undefined index: cate_id F:\wamp\ThinkPHP_Project\jxshop\Application\Runtime\Cache\Admin\9ce8eac8d2713f300aacb86a396bc850.php 第 35 行.
+NOTIC: [8] Undefined index: cate_id F:\wamp\ThinkPHP_Project\jxshop\Application\Runtime\Cache\Admin\9ce8eac8d2713f300aacb86a396bc850.php 第 35 行.
+NOTIC: [8] Undefined index: cate_id F:\wamp\ThinkPHP_Project\jxshop\Application\Runtime\Cache\Admin\9ce8eac8d2713f300aacb86a396bc850.php 第 35 行.
+NOTIC: [8] Undefined index: cate_id F:\wamp\ThinkPHP_Project\jxshop\Application\Runtime\Cache\Admin\9ce8eac8d2713f300aacb86a396bc850.php 第 35 行.
+NOTIC: [8] Undefined index: cate_id F:\wamp\ThinkPHP_Project\jxshop\Application\Runtime\Cache\Admin\9ce8eac8d2713f300aacb86a396bc850.php 第 35 行.
+NOTIC: [8] Undefined index: cate_id F:\wamp\ThinkPHP_Project\jxshop\Application\Runtime\Cache\Admin\9ce8eac8d2713f300aacb86a396bc850.php 第 35 行.
+NOTIC: [8] Undefined index: cate_id F:\wamp\ThinkPHP_Project\jxshop\Application\Runtime\Cache\Admin\9ce8eac8d2713f300aacb86a396bc850.php 第 35 行.
+NOTIC: [8] Undefined index: cate_id F:\wamp\ThinkPHP_Project\jxshop\Application\Runtime\Cache\Admin\9ce8eac8d2713f300aacb86a396bc850.php 第 35 行.
+NOTIC: [8] Undefined index: cate_id F:\wamp\ThinkPHP_Project\jxshop\Application\Runtime\Cache\Admin\9ce8eac8d2713f300aacb86a396bc850.php 第 35 行.
+NOTIC: [8] Undefined index: cate_id F:\wamp\ThinkPHP_Project\jxshop\Application\Runtime\Cache\Admin\9ce8eac8d2713f300aacb86a396bc850.php 第 35 行.
+NOTIC: [8] Undefined index: cate_id F:\wamp\ThinkPHP_Project\jxshop\Application\Runtime\Cache\Admin\9ce8eac8d2713f300aacb86a396bc850.php 第 35 行.
+NOTIC: [8] Undefined index: cate_id F:\wamp\ThinkPHP_Project\jxshop\Application\Runtime\Cache\Admin\9ce8eac8d2713f300aacb86a396bc850.php 第 35 行.
+NOTIC: [8] Undefined index: cate_id F:\wamp\ThinkPHP_Project\jxshop\Application\Runtime\Cache\Admin\9ce8eac8d2713f300aacb86a396bc850.php 第 35 行.
+NOTIC: [8] Undefined index: cate_id F:\wamp\ThinkPHP_Project\jxshop\Application\Runtime\Cache\Admin\9ce8eac8d2713f300aacb86a396bc850.php 第 35 行.
+NOTIC: [8] Undefined index: cate_id F:\wamp\ThinkPHP_Project\jxshop\Application\Runtime\Cache\Admin\9ce8eac8d2713f300aacb86a396bc850.php 第 35 行.
+NOTIC: [8] Undefined index: cate_id F:\wamp\ThinkPHP_Project\jxshop\Application\Runtime\Cache\Admin\9ce8eac8d2713f300aacb86a396bc850.php 第 35 行.
+NOTIC: [8] Undefined index: cate_id F:\wamp\ThinkPHP_Project\jxshop\Application\Runtime\Cache\Admin\9ce8eac8d2713f300aacb86a396bc850.php 第 35 行.
+NOTIC: [8] Undefined index: cate_id F:\wamp\ThinkPHP_Project\jxshop\Application\Runtime\Cache\Admin\9ce8eac8d2713f300aacb86a396bc850.php 第 35 行.
+NOTIC: [8] Undefined index: cate_id F:\wamp\ThinkPHP_Project\jxshop\Application\Runtime\Cache\Admin\9ce8eac8d2713f300aacb86a396bc850.php 第 35 行.
+NOTIC: [8] Undefined index: cate_id F:\wamp\ThinkPHP_Project\jxshop\Application\Runtime\Cache\Admin\9ce8eac8d2713f300aacb86a396bc850.php 第 35 行.
+NOTIC: [8] Undefined index: cate_id F:\wamp\ThinkPHP_Project\jxshop\Application\Runtime\Cache\Admin\9ce8eac8d2713f300aacb86a396bc850.php 第 35 行.
+NOTIC: [8] Undefined index: cate_id F:\wamp\ThinkPHP_Project\jxshop\Application\Runtime\Cache\Admin\9ce8eac8d2713f300aacb86a396bc850.php 第 35 行.
+NOTIC: [8] Undefined index: cate_id F:\wamp\ThinkPHP_Project\jxshop\Application\Runtime\Cache\Admin\9ce8eac8d2713f300aacb86a396bc850.php 第 35 行.
+NOTIC: [8] Undefined index: cate_id F:\wamp\ThinkPHP_Project\jxshop\Application\Runtime\Cache\Admin\9ce8eac8d2713f300aacb86a396bc850.php 第 35 行.
+NOTIC: [8] Undefined index: cate_id F:\wamp\ThinkPHP_Project\jxshop\Application\Runtime\Cache\Admin\9ce8eac8d2713f300aacb86a396bc850.php 第 35 行.
+NOTIC: [8] Undefined index: cate_id F:\wamp\ThinkPHP_Project\jxshop\Application\Runtime\Cache\Admin\9ce8eac8d2713f300aacb86a396bc850.php 第 35 行.
+NOTIC: [8] Undefined index: intro_type F:\wamp\ThinkPHP_Project\jxshop\Application\Runtime\Cache\Admin\9ce8eac8d2713f300aacb86a396bc850.php 第 40 行.
+NOTIC: [8] Undefined index: intro_type F:\wamp\ThinkPHP_Project\jxshop\Application\Runtime\Cache\Admin\9ce8eac8d2713f300aacb86a396bc850.php 第 41 行.
+NOTIC: [8] Undefined index: intro_type F:\wamp\ThinkPHP_Project\jxshop\Application\Runtime\Cache\Admin\9ce8eac8d2713f300aacb86a396bc850.php 第 42 行.
+NOTIC: [8] Undefined index: is_sale F:\wamp\ThinkPHP_Project\jxshop\Application\Runtime\Cache\Admin\9ce8eac8d2713f300aacb86a396bc850.php 第 46 行.
+NOTIC: [8] Undefined index: is_sale F:\wamp\ThinkPHP_Project\jxshop\Application\Runtime\Cache\Admin\9ce8eac8d2713f300aacb86a396bc850.php 第 47 行.
+NOTIC: [8] Undefined index: is_sale F:\wamp\ThinkPHP_Project\jxshop\Application\Runtime\Cache\Admin\9ce8eac8d2713f300aacb86a396bc850.php 第 48 行.
+NOTIC: [8] Undefined index: is_desc F:\wamp\ThinkPHP_Project\jxshop\Application\Runtime\Cache\Admin\9ce8eac8d2713f300aacb86a396bc850.php 第 53 行.
+NOTIC: [8] Undefined index: is_desc F:\wamp\ThinkPHP_Project\jxshop\Application\Runtime\Cache\Admin\9ce8eac8d2713f300aacb86a396bc850.php 第 54 行.
+NOTIC: [8] Undefined index: keyword F:\wamp\ThinkPHP_Project\jxshop\Application\Runtime\Cache\Admin\9ce8eac8d2713f300aacb86a396bc850.php 第 57 行.
+NOTIC: [8] Use of undefined constant yes - assumed 'yes' F:\wamp\ThinkPHP_Project\jxshop\Application\Runtime\Cache\Admin\9ce8eac8d2713f300aacb86a396bc850.php 第 82 行.
+NOTIC: [8] Use of undefined constant yes - assumed 'yes' F:\wamp\ThinkPHP_Project\jxshop\Application\Runtime\Cache\Admin\9ce8eac8d2713f300aacb86a396bc850.php 第 83 行.
+NOTIC: [8] Use of undefined constant yes - assumed 'yes' F:\wamp\ThinkPHP_Project\jxshop\Application\Runtime\Cache\Admin\9ce8eac8d2713f300aacb86a396bc850.php 第 82 行.
+NOTIC: [8] Use of undefined constant yes - assumed 'yes' F:\wamp\ThinkPHP_Project\jxshop\Application\Runtime\Cache\Admin\9ce8eac8d2713f300aacb86a396bc850.php 第 83 行.
+NOTIC: [8] Use of undefined constant yes - assumed 'yes' F:\wamp\ThinkPHP_Project\jxshop\Application\Runtime\Cache\Admin\9ce8eac8d2713f300aacb86a396bc850.php 第 82 行.
+NOTIC: [8] Use of undefined constant no - assumed 'no' F:\wamp\ThinkPHP_Project\jxshop\Application\Runtime\Cache\Admin\9ce8eac8d2713f300aacb86a396bc850.php 第 83 行.
+NOTIC: [8] Use of undefined constant yes - assumed 'yes' F:\wamp\ThinkPHP_Project\jxshop\Application\Runtime\Cache\Admin\9ce8eac8d2713f300aacb86a396bc850.php 第 82 行.
+NOTIC: [8] Use of undefined constant no - assumed 'no' F:\wamp\ThinkPHP_Project\jxshop\Application\Runtime\Cache\Admin\9ce8eac8d2713f300aacb86a396bc850.php 第 83 行.
+NOTIC: [8] Use of undefined constant yes - assumed 'yes' F:\wamp\ThinkPHP_Project\jxshop\Application\Runtime\Cache\Admin\9ce8eac8d2713f300aacb86a396bc850.php 第 82 行.
+NOTIC: [8] Use of undefined constant no - assumed 'no' F:\wamp\ThinkPHP_Project\jxshop\Application\Runtime\Cache\Admin\9ce8eac8d2713f300aacb86a396bc850.php 第 83 行.
+NOTIC: [8] Use of undefined constant yes - assumed 'yes' F:\wamp\ThinkPHP_Project\jxshop\Application\Runtime\Cache\Admin\9ce8eac8d2713f300aacb86a396bc850.php 第 82 行.
+NOTIC: [8] Use of undefined constant yes - assumed 'yes' F:\wamp\ThinkPHP_Project\jxshop\Application\Runtime\Cache\Admin\9ce8eac8d2713f300aacb86a396bc850.php 第 83 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.010716s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.010751s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000628s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000655s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001519s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001587s ]
+
+[ 2018-12-08T20:09:36+08:00 ] 127.0.0.1 /Admin/Goods/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000504s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000892s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000931s ]
+SQL: SELECT * FROM `jx_category`  [ RunTime:0.0003s ]
+NOTIC: [2048] Declaration of Admin\Model\GoodsModel::_after_insert() should be compatible with Think\Model::_after_insert($data, $options) F:\wamp\ThinkPHP_Project\jxshop\Application\Admin\Model\GoodsModel.class.php 第 373 行.
+SQL: SELECT COUNT(*) AS tp_count FROM `jx_goods` WHERE ( isdel=1 ) LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `jx_goods` WHERE ( isdel=1 ) ORDER BY id desc LIMIT 0,6   [ RunTime:0.0003s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000065s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000101s ]
+NOTIC: [8] Undefined index: cate_id F:\wamp\ThinkPHP_Project\jxshop\Application\Runtime\Cache\Admin\9ce8eac8d2713f300aacb86a396bc850.php 第 35 行.
+NOTIC: [8] Undefined index: cate_id F:\wamp\ThinkPHP_Project\jxshop\Application\Runtime\Cache\Admin\9ce8eac8d2713f300aacb86a396bc850.php 第 35 行.
+NOTIC: [8] Undefined index: cate_id F:\wamp\ThinkPHP_Project\jxshop\Application\Runtime\Cache\Admin\9ce8eac8d2713f300aacb86a396bc850.php 第 35 行.
+NOTIC: [8] Undefined index: cate_id F:\wamp\ThinkPHP_Project\jxshop\Application\Runtime\Cache\Admin\9ce8eac8d2713f300aacb86a396bc850.php 第 35 行.
+NOTIC: [8] Undefined index: cate_id F:\wamp\ThinkPHP_Project\jxshop\Application\Runtime\Cache\Admin\9ce8eac8d2713f300aacb86a396bc850.php 第 35 行.
+NOTIC: [8] Undefined index: cate_id F:\wamp\ThinkPHP_Project\jxshop\Application\Runtime\Cache\Admin\9ce8eac8d2713f300aacb86a396bc850.php 第 35 行.
+NOTIC: [8] Undefined index: cate_id F:\wamp\ThinkPHP_Project\jxshop\Application\Runtime\Cache\Admin\9ce8eac8d2713f300aacb86a396bc850.php 第 35 行.
+NOTIC: [8] Undefined index: cate_id F:\wamp\ThinkPHP_Project\jxshop\Application\Runtime\Cache\Admin\9ce8eac8d2713f300aacb86a396bc850.php 第 35 行.
+NOTIC: [8] Undefined index: cate_id F:\wamp\ThinkPHP_Project\jxshop\Application\Runtime\Cache\Admin\9ce8eac8d2713f300aacb86a396bc850.php 第 35 行.
+NOTIC: [8] Undefined index: cate_id F:\wamp\ThinkPHP_Project\jxshop\Application\Runtime\Cache\Admin\9ce8eac8d2713f300aacb86a396bc850.php 第 35 行.
+NOTIC: [8] Undefined index: cate_id F:\wamp\ThinkPHP_Project\jxshop\Application\Runtime\Cache\Admin\9ce8eac8d2713f300aacb86a396bc850.php 第 35 行.
+NOTIC: [8] Undefined index: cate_id F:\wamp\ThinkPHP_Project\jxshop\Application\Runtime\Cache\Admin\9ce8eac8d2713f300aacb86a396bc850.php 第 35 行.
+NOTIC: [8] Undefined index: cate_id F:\wamp\ThinkPHP_Project\jxshop\Application\Runtime\Cache\Admin\9ce8eac8d2713f300aacb86a396bc850.php 第 35 行.
+NOTIC: [8] Undefined index: cate_id F:\wamp\ThinkPHP_Project\jxshop\Application\Runtime\Cache\Admin\9ce8eac8d2713f300aacb86a396bc850.php 第 35 行.
+NOTIC: [8] Undefined index: cate_id F:\wamp\ThinkPHP_Project\jxshop\Application\Runtime\Cache\Admin\9ce8eac8d2713f300aacb86a396bc850.php 第 35 行.
+NOTIC: [8] Undefined index: cate_id F:\wamp\ThinkPHP_Project\jxshop\Application\Runtime\Cache\Admin\9ce8eac8d2713f300aacb86a396bc850.php 第 35 行.
+NOTIC: [8] Undefined index: cate_id F:\wamp\ThinkPHP_Project\jxshop\Application\Runtime\Cache\Admin\9ce8eac8d2713f300aacb86a396bc850.php 第 35 行.
+NOTIC: [8] Undefined index: cate_id F:\wamp\ThinkPHP_Project\jxshop\Application\Runtime\Cache\Admin\9ce8eac8d2713f300aacb86a396bc850.php 第 35 行.
+NOTIC: [8] Undefined index: cate_id F:\wamp\ThinkPHP_Project\jxshop\Application\Runtime\Cache\Admin\9ce8eac8d2713f300aacb86a396bc850.php 第 35 行.
+NOTIC: [8] Undefined index: cate_id F:\wamp\ThinkPHP_Project\jxshop\Application\Runtime\Cache\Admin\9ce8eac8d2713f300aacb86a396bc850.php 第 35 行.
+NOTIC: [8] Undefined index: cate_id F:\wamp\ThinkPHP_Project\jxshop\Application\Runtime\Cache\Admin\9ce8eac8d2713f300aacb86a396bc850.php 第 35 行.
+NOTIC: [8] Undefined index: cate_id F:\wamp\ThinkPHP_Project\jxshop\Application\Runtime\Cache\Admin\9ce8eac8d2713f300aacb86a396bc850.php 第 35 行.
+NOTIC: [8] Undefined index: cate_id F:\wamp\ThinkPHP_Project\jxshop\Application\Runtime\Cache\Admin\9ce8eac8d2713f300aacb86a396bc850.php 第 35 行.
+NOTIC: [8] Undefined index: cate_id F:\wamp\ThinkPHP_Project\jxshop\Application\Runtime\Cache\Admin\9ce8eac8d2713f300aacb86a396bc850.php 第 35 行.
+NOTIC: [8] Undefined index: cate_id F:\wamp\ThinkPHP_Project\jxshop\Application\Runtime\Cache\Admin\9ce8eac8d2713f300aacb86a396bc850.php 第 35 行.
+NOTIC: [8] Undefined index: cate_id F:\wamp\ThinkPHP_Project\jxshop\Application\Runtime\Cache\Admin\9ce8eac8d2713f300aacb86a396bc850.php 第 35 行.
+NOTIC: [8] Undefined index: cate_id F:\wamp\ThinkPHP_Project\jxshop\Application\Runtime\Cache\Admin\9ce8eac8d2713f300aacb86a396bc850.php 第 35 行.
+NOTIC: [8] Undefined index: intro_type F:\wamp\ThinkPHP_Project\jxshop\Application\Runtime\Cache\Admin\9ce8eac8d2713f300aacb86a396bc850.php 第 40 行.
+NOTIC: [8] Undefined index: intro_type F:\wamp\ThinkPHP_Project\jxshop\Application\Runtime\Cache\Admin\9ce8eac8d2713f300aacb86a396bc850.php 第 41 行.
+NOTIC: [8] Undefined index: intro_type F:\wamp\ThinkPHP_Project\jxshop\Application\Runtime\Cache\Admin\9ce8eac8d2713f300aacb86a396bc850.php 第 42 行.
+NOTIC: [8] Undefined index: is_sale F:\wamp\ThinkPHP_Project\jxshop\Application\Runtime\Cache\Admin\9ce8eac8d2713f300aacb86a396bc850.php 第 46 行.
+NOTIC: [8] Undefined index: is_sale F:\wamp\ThinkPHP_Project\jxshop\Application\Runtime\Cache\Admin\9ce8eac8d2713f300aacb86a396bc850.php 第 47 行.
+NOTIC: [8] Undefined index: is_sale F:\wamp\ThinkPHP_Project\jxshop\Application\Runtime\Cache\Admin\9ce8eac8d2713f300aacb86a396bc850.php 第 48 行.
+NOTIC: [8] Undefined index: is_desc F:\wamp\ThinkPHP_Project\jxshop\Application\Runtime\Cache\Admin\9ce8eac8d2713f300aacb86a396bc850.php 第 53 行.
+NOTIC: [8] Undefined index: is_desc F:\wamp\ThinkPHP_Project\jxshop\Application\Runtime\Cache\Admin\9ce8eac8d2713f300aacb86a396bc850.php 第 54 行.
+NOTIC: [8] Undefined index: keyword F:\wamp\ThinkPHP_Project\jxshop\Application\Runtime\Cache\Admin\9ce8eac8d2713f300aacb86a396bc850.php 第 57 行.
+NOTIC: [8] Use of undefined constant yes - assumed 'yes' F:\wamp\ThinkPHP_Project\jxshop\Application\Runtime\Cache\Admin\9ce8eac8d2713f300aacb86a396bc850.php 第 82 行.
+NOTIC: [8] Use of undefined constant yes - assumed 'yes' F:\wamp\ThinkPHP_Project\jxshop\Application\Runtime\Cache\Admin\9ce8eac8d2713f300aacb86a396bc850.php 第 83 行.
+NOTIC: [8] Use of undefined constant yes - assumed 'yes' F:\wamp\ThinkPHP_Project\jxshop\Application\Runtime\Cache\Admin\9ce8eac8d2713f300aacb86a396bc850.php 第 82 行.
+NOTIC: [8] Use of undefined constant yes - assumed 'yes' F:\wamp\ThinkPHP_Project\jxshop\Application\Runtime\Cache\Admin\9ce8eac8d2713f300aacb86a396bc850.php 第 83 行.
+NOTIC: [8] Use of undefined constant yes - assumed 'yes' F:\wamp\ThinkPHP_Project\jxshop\Application\Runtime\Cache\Admin\9ce8eac8d2713f300aacb86a396bc850.php 第 82 行.
+NOTIC: [8] Use of undefined constant no - assumed 'no' F:\wamp\ThinkPHP_Project\jxshop\Application\Runtime\Cache\Admin\9ce8eac8d2713f300aacb86a396bc850.php 第 83 行.
+NOTIC: [8] Use of undefined constant yes - assumed 'yes' F:\wamp\ThinkPHP_Project\jxshop\Application\Runtime\Cache\Admin\9ce8eac8d2713f300aacb86a396bc850.php 第 82 行.
+NOTIC: [8] Use of undefined constant no - assumed 'no' F:\wamp\ThinkPHP_Project\jxshop\Application\Runtime\Cache\Admin\9ce8eac8d2713f300aacb86a396bc850.php 第 83 行.
+NOTIC: [8] Use of undefined constant yes - assumed 'yes' F:\wamp\ThinkPHP_Project\jxshop\Application\Runtime\Cache\Admin\9ce8eac8d2713f300aacb86a396bc850.php 第 82 行.
+NOTIC: [8] Use of undefined constant no - assumed 'no' F:\wamp\ThinkPHP_Project\jxshop\Application\Runtime\Cache\Admin\9ce8eac8d2713f300aacb86a396bc850.php 第 83 行.
+NOTIC: [8] Use of undefined constant yes - assumed 'yes' F:\wamp\ThinkPHP_Project\jxshop\Application\Runtime\Cache\Admin\9ce8eac8d2713f300aacb86a396bc850.php 第 82 行.
+NOTIC: [8] Use of undefined constant yes - assumed 'yes' F:\wamp\ThinkPHP_Project\jxshop\Application\Runtime\Cache\Admin\9ce8eac8d2713f300aacb86a396bc850.php 第 83 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.010247s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.010283s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000656s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000691s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001143s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001186s ]
+
+[ 2018-12-08T20:09:37+08:00 ] 127.0.0.1 /Admin/Goods/edit/goods_id/29.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000444s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000743s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000776s ]
+NOTIC: [2048] Declaration of Admin\Model\GoodsModel::_after_insert() should be compatible with Think\Model::_after_insert($data, $options) F:\wamp\ThinkPHP_Project\jxshop\Application\Admin\Model\GoodsModel.class.php 第 9 行.
+SQL: SELECT * FROM `jx_goods` WHERE ( id=29 ) LIMIT 1   [ RunTime:0.0004s ]
+SQL: SELECT * FROM `jx_category`  [ RunTime:0.0005s ]
+SQL: SHOW COLUMNS FROM `jx_goods_cate` [ RunTime:0.0036s ]
+SQL: SELECT * FROM `jx_goods_cate` WHERE ( goods_id=29 )  [ RunTime:0.0002s ]
+SQL: SELECT * FROM `jx_type`  [ RunTime:0.0002s ]
+SQL: SELECT a.*,b.attr_name,b.attr_type,b.attr_input_type,b.attr_value FROM jx_goods_attr a left join jx_attribute b on a.attr_id = b.id  WHERE ( goods_id=29 )  [ RunTime:0.0004s ]
+SQL: SELECT * FROM `jx_goods_img` WHERE ( goods_id=29 )  [ RunTime:0.0002s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000108s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000156s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.015239s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.015283s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000628s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000670s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000924s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000968s ]
+
+[ 2018-12-08T20:09:40+08:00 ] 127.0.0.1 /Admin/Goods/edit/goods_id/28.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000521s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000786s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000820s ]
+NOTIC: [2048] Declaration of Admin\Model\GoodsModel::_after_insert() should be compatible with Think\Model::_after_insert($data, $options) F:\wamp\ThinkPHP_Project\jxshop\Application\Admin\Model\GoodsModel.class.php 第 9 行.
+SQL: SELECT * FROM `jx_goods` WHERE ( id=28 ) LIMIT 1   [ RunTime:0.0007s ]
+SQL: SELECT * FROM `jx_category`  [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `jx_goods_cate` [ RunTime:0.0027s ]
+SQL: SELECT * FROM `jx_goods_cate` WHERE ( goods_id=28 )  [ RunTime:0.0002s ]
+SQL: SELECT * FROM `jx_type`  [ RunTime:0.0002s ]
+SQL: SELECT a.*,b.attr_name,b.attr_type,b.attr_input_type,b.attr_value FROM jx_goods_attr a left join jx_attribute b on a.attr_id = b.id  WHERE ( goods_id=28 )  [ RunTime:0.0003s ]
+SQL: SELECT * FROM `jx_goods_img` WHERE ( goods_id=28 )  [ RunTime:0.0002s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000103s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000139s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.015231s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.015270s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000683s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000710s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001388s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001436s ]
+
+[ 2018-12-08T20:09:43+08:00 ] 127.0.0.1 /Admin/Goods/edit/goods_id/30.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000584s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000918s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000966s ]
+NOTIC: [2048] Declaration of Admin\Model\GoodsModel::_after_insert() should be compatible with Think\Model::_after_insert($data, $options) F:\wamp\ThinkPHP_Project\jxshop\Application\Admin\Model\GoodsModel.class.php 第 9 行.
+SQL: SELECT * FROM `jx_goods` WHERE ( id=30 ) LIMIT 1   [ RunTime:0.0004s ]
+SQL: SELECT * FROM `jx_category`  [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `jx_goods_cate` [ RunTime:0.0028s ]
+SQL: SELECT * FROM `jx_goods_cate` WHERE ( goods_id=30 )  [ RunTime:0.0003s ]
+SQL: SELECT * FROM `jx_type`  [ RunTime:0.0003s ]
+SQL: SELECT a.*,b.attr_name,b.attr_type,b.attr_input_type,b.attr_value FROM jx_goods_attr a left join jx_attribute b on a.attr_id = b.id  WHERE ( goods_id=30 )  [ RunTime:0.0003s ]
+SQL: SELECT * FROM `jx_goods_img` WHERE ( goods_id=30 )  [ RunTime:0.0009s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000104s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000138s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.014171s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.014215s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000777s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000822s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000918s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000960s ]
+
+[ 2018-12-08T20:09:46+08:00 ] 127.0.0.1 /Admin/Goods/edit/goods_id/30.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000446s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000783s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000816s ]
+NOTIC: [2048] Declaration of Admin\Model\GoodsModel::_after_insert() should be compatible with Think\Model::_after_insert($data, $options) F:\wamp\ThinkPHP_Project\jxshop\Application\Admin\Model\GoodsModel.class.php 第 9 行.
+SQL: SELECT * FROM `jx_goods` WHERE ( id=30 ) LIMIT 1   [ RunTime:0.0004s ]
+SQL: SELECT * FROM `jx_category`  [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `jx_goods_cate` [ RunTime:0.0027s ]
+SQL: SELECT * FROM `jx_goods_cate` WHERE ( goods_id=30 )  [ RunTime:0.0002s ]
+SQL: SELECT * FROM `jx_type`  [ RunTime:0.0002s ]
+SQL: SELECT a.*,b.attr_name,b.attr_type,b.attr_input_type,b.attr_value FROM jx_goods_attr a left join jx_attribute b on a.attr_id = b.id  WHERE ( goods_id=30 )  [ RunTime:0.0005s ]
+SQL: SELECT * FROM `jx_goods_img` WHERE ( goods_id=30 )  [ RunTime:0.0004s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000107s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000145s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.014964s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.015011s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000562s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000591s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000865s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000904s ]
+
+[ 2018-12-08T20:10:06+08:00 ] 127.0.0.1 /Admin/Goods/edit/goods_id/30.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000446s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000848s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000926s ]
+NOTIC: [2048] Declaration of Admin\Model\GoodsModel::_after_insert() should be compatible with Think\Model::_after_insert($data, $options) F:\wamp\ThinkPHP_Project\jxshop\Application\Admin\Model\GoodsModel.class.php 第 9 行.
+NOTIC: [8] Undefined index: validate F:\wamp\ThinkPHP_Project\jxshop\ThinkPHP\Library\Think\Model.class.php 第 1185 行.
+NOTIC: [8] Undefined index: auto F:\wamp\ThinkPHP_Project\jxshop\ThinkPHP\Library\Think\Model.class.php 第 1128 行.
+NOTIC: [8] Undefined index: is_new F:\wamp\ThinkPHP_Project\jxshop\Application\Admin\Controller\GoodsController.class.php 第 136 行.
+SQL: SELECT * FROM `jx_goods` WHERE ( goods_sn = '5bffee96108a9' AND id != 30 ) LIMIT 1   [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `jx_goods_cate` [ RunTime:0.0028s ]
+SQL: DELETE FROM `jx_goods_cate` WHERE ( goods_id = 30 ) [ RunTime:0.1801s ]
+SQL: INSERT INTO `jx_goods_cate` (`goods_id`,`cate_id`) VALUES ('30','22') [ RunTime:0.0914s ]
+SQL: DELETE FROM `jx_goods_attr` WHERE ( goods_id=30 ) [ RunTime:0.1066s ]
+SQL: INSERT INTO `jx_goods_attr` (`goods_id`,`attr_id`,`attr_values`) VALUES ('30','1','17寸'),('30','2','2G'),('30','2','4G'),('30','3','Intel 86'),('30','4','核显'),('30','5','无光驱'),('30','5','DVD-ROM'),('30','6','机械硬盘'),('30','6','固态硬盘') [ RunTime:0.0993s ]
+NOTIC: [2] finfo_file(): Empty filename or path F:\wamp\ThinkPHP_Project\jxshop\ThinkPHP\Library\Think\Upload.class.php 第 152 行.
+NOTIC: [2] Invalid argument supplied for foreach() F:\wamp\ThinkPHP_Project\jxshop\Application\Admin\Model\GoodsModel.class.php 第 45 行.
+NOTIC: [8] Undefined variable: list F:\wamp\ThinkPHP_Project\jxshop\Application\Admin\Model\GoodsModel.class.php 第 58 行.
+SQL: UPDATE `jx_goods` SET `goods_name`='惠普G4-1332TX 14英寸笔',`goods_sn`='5bffee96108a9',`cx_price`='3999.00',`start`='1543391808',`end`='1546243002',`cate_id`='21',`shop_price`='4999.00',`is_sale`='1',`is_hot`='1',`is_rec`='1',`market_price`='5999.00',`type_id`='2',`goods_body`='&lt;p&gt;惠普G4-1332TX 14英寸笔&lt;/p&gt;',`is_new`='0' WHERE `id` = '30' [ RunTime:0.0701s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000048s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000104s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.005916s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.005952s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000574s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000600s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000726s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000755s ]
+
+[ 2018-12-08T20:10:07+08:00 ] 127.0.0.1 /Admin/Goods/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000009s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000458s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000923s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000994s ]
+SQL: SELECT * FROM `jx_category`  [ RunTime:0.0003s ]
+NOTIC: [2048] Declaration of Admin\Model\GoodsModel::_after_insert() should be compatible with Think\Model::_after_insert($data, $options) F:\wamp\ThinkPHP_Project\jxshop\Application\Admin\Model\GoodsModel.class.php 第 373 行.
+SQL: SELECT COUNT(*) AS tp_count FROM `jx_goods` WHERE ( isdel=1 ) LIMIT 1   [ RunTime:0.0004s ]
+SQL: SELECT * FROM `jx_goods` WHERE ( isdel=1 ) ORDER BY id desc LIMIT 0,6   [ RunTime:0.0004s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000064s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000096s ]
+NOTIC: [8] Undefined index: cate_id F:\wamp\ThinkPHP_Project\jxshop\Application\Runtime\Cache\Admin\9ce8eac8d2713f300aacb86a396bc850.php 第 35 行.
+NOTIC: [8] Undefined index: cate_id F:\wamp\ThinkPHP_Project\jxshop\Application\Runtime\Cache\Admin\9ce8eac8d2713f300aacb86a396bc850.php 第 35 行.
+NOTIC: [8] Undefined index: cate_id F:\wamp\ThinkPHP_Project\jxshop\Application\Runtime\Cache\Admin\9ce8eac8d2713f300aacb86a396bc850.php 第 35 行.
+NOTIC: [8] Undefined index: cate_id F:\wamp\ThinkPHP_Project\jxshop\Application\Runtime\Cache\Admin\9ce8eac8d2713f300aacb86a396bc850.php 第 35 行.
+NOTIC: [8] Undefined index: cate_id F:\wamp\ThinkPHP_Project\jxshop\Application\Runtime\Cache\Admin\9ce8eac8d2713f300aacb86a396bc850.php 第 35 行.
+NOTIC: [8] Undefined index: cate_id F:\wamp\ThinkPHP_Project\jxshop\Application\Runtime\Cache\Admin\9ce8eac8d2713f300aacb86a396bc850.php 第 35 行.
+NOTIC: [8] Undefined index: cate_id F:\wamp\ThinkPHP_Project\jxshop\Application\Runtime\Cache\Admin\9ce8eac8d2713f300aacb86a396bc850.php 第 35 行.
+NOTIC: [8] Undefined index: cate_id F:\wamp\ThinkPHP_Project\jxshop\Application\Runtime\Cache\Admin\9ce8eac8d2713f300aacb86a396bc850.php 第 35 行.
+NOTIC: [8] Undefined index: cate_id F:\wamp\ThinkPHP_Project\jxshop\Application\Runtime\Cache\Admin\9ce8eac8d2713f300aacb86a396bc850.php 第 35 行.
+NOTIC: [8] Undefined index: cate_id F:\wamp\ThinkPHP_Project\jxshop\Application\Runtime\Cache\Admin\9ce8eac8d2713f300aacb86a396bc850.php 第 35 行.
+NOTIC: [8] Undefined index: cate_id F:\wamp\ThinkPHP_Project\jxshop\Application\Runtime\Cache\Admin\9ce8eac8d2713f300aacb86a396bc850.php 第 35 行.
+NOTIC: [8] Undefined index: cate_id F:\wamp\ThinkPHP_Project\jxshop\Application\Runtime\Cache\Admin\9ce8eac8d2713f300aacb86a396bc850.php 第 35 行.
+NOTIC: [8] Undefined index: cate_id F:\wamp\ThinkPHP_Project\jxshop\Application\Runtime\Cache\Admin\9ce8eac8d2713f300aacb86a396bc850.php 第 35 行.
+NOTIC: [8] Undefined index: cate_id F:\wamp\ThinkPHP_Project\jxshop\Application\Runtime\Cache\Admin\9ce8eac8d2713f300aacb86a396bc850.php 第 35 行.
+NOTIC: [8] Undefined index: cate_id F:\wamp\ThinkPHP_Project\jxshop\Application\Runtime\Cache\Admin\9ce8eac8d2713f300aacb86a396bc850.php 第 35 行.
+NOTIC: [8] Undefined index: cate_id F:\wamp\ThinkPHP_Project\jxshop\Application\Runtime\Cache\Admin\9ce8eac8d2713f300aacb86a396bc850.php 第 35 行.
+NOTIC: [8] Undefined index: cate_id F:\wamp\ThinkPHP_Project\jxshop\Application\Runtime\Cache\Admin\9ce8eac8d2713f300aacb86a396bc850.php 第 35 行.
+NOTIC: [8] Undefined index: cate_id F:\wamp\ThinkPHP_Project\jxshop\Application\Runtime\Cache\Admin\9ce8eac8d2713f300aacb86a396bc850.php 第 35 行.
+NOTIC: [8] Undefined index: cate_id F:\wamp\ThinkPHP_Project\jxshop\Application\Runtime\Cache\Admin\9ce8eac8d2713f300aacb86a396bc850.php 第 35 行.
+NOTIC: [8] Undefined index: cate_id F:\wamp\ThinkPHP_Project\jxshop\Application\Runtime\Cache\Admin\9ce8eac8d2713f300aacb86a396bc850.php 第 35 行.
+NOTIC: [8] Undefined index: cate_id F:\wamp\ThinkPHP_Project\jxshop\Application\Runtime\Cache\Admin\9ce8eac8d2713f300aacb86a396bc850.php 第 35 行.
+NOTIC: [8] Undefined index: cate_id F:\wamp\ThinkPHP_Project\jxshop\Application\Runtime\Cache\Admin\9ce8eac8d2713f300aacb86a396bc850.php 第 35 行.
+NOTIC: [8] Undefined index: cate_id F:\wamp\ThinkPHP_Project\jxshop\Application\Runtime\Cache\Admin\9ce8eac8d2713f300aacb86a396bc850.php 第 35 行.
+NOTIC: [8] Undefined index: cate_id F:\wamp\ThinkPHP_Project\jxshop\Application\Runtime\Cache\Admin\9ce8eac8d2713f300aacb86a396bc850.php 第 35 行.
+NOTIC: [8] Undefined index: cate_id F:\wamp\ThinkPHP_Project\jxshop\Application\Runtime\Cache\Admin\9ce8eac8d2713f300aacb86a396bc850.php 第 35 行.
+NOTIC: [8] Undefined index: cate_id F:\wamp\ThinkPHP_Project\jxshop\Application\Runtime\Cache\Admin\9ce8eac8d2713f300aacb86a396bc850.php 第 35 行.
+NOTIC: [8] Undefined index: cate_id F:\wamp\ThinkPHP_Project\jxshop\Application\Runtime\Cache\Admin\9ce8eac8d2713f300aacb86a396bc850.php 第 35 行.
+NOTIC: [8] Undefined index: intro_type F:\wamp\ThinkPHP_Project\jxshop\Application\Runtime\Cache\Admin\9ce8eac8d2713f300aacb86a396bc850.php 第 40 行.
+NOTIC: [8] Undefined index: intro_type F:\wamp\ThinkPHP_Project\jxshop\Application\Runtime\Cache\Admin\9ce8eac8d2713f300aacb86a396bc850.php 第 41 行.
+NOTIC: [8] Undefined index: intro_type F:\wamp\ThinkPHP_Project\jxshop\Application\Runtime\Cache\Admin\9ce8eac8d2713f300aacb86a396bc850.php 第 42 行.
+NOTIC: [8] Undefined index: is_sale F:\wamp\ThinkPHP_Project\jxshop\Application\Runtime\Cache\Admin\9ce8eac8d2713f300aacb86a396bc850.php 第 46 行.
+NOTIC: [8] Undefined index: is_sale F:\wamp\ThinkPHP_Project\jxshop\Application\Runtime\Cache\Admin\9ce8eac8d2713f300aacb86a396bc850.php 第 47 行.
+NOTIC: [8] Undefined index: is_sale F:\wamp\ThinkPHP_Project\jxshop\Application\Runtime\Cache\Admin\9ce8eac8d2713f300aacb86a396bc850.php 第 48 行.
+NOTIC: [8] Undefined index: is_desc F:\wamp\ThinkPHP_Project\jxshop\Application\Runtime\Cache\Admin\9ce8eac8d2713f300aacb86a396bc850.php 第 53 行.
+NOTIC: [8] Undefined index: is_desc F:\wamp\ThinkPHP_Project\jxshop\Application\Runtime\Cache\Admin\9ce8eac8d2713f300aacb86a396bc850.php 第 54 行.
+NOTIC: [8] Undefined index: keyword F:\wamp\ThinkPHP_Project\jxshop\Application\Runtime\Cache\Admin\9ce8eac8d2713f300aacb86a396bc850.php 第 57 行.
+NOTIC: [8] Use of undefined constant yes - assumed 'yes' F:\wamp\ThinkPHP_Project\jxshop\Application\Runtime\Cache\Admin\9ce8eac8d2713f300aacb86a396bc850.php 第 82 行.
+NOTIC: [8] Use of undefined constant yes - assumed 'yes' F:\wamp\ThinkPHP_Project\jxshop\Application\Runtime\Cache\Admin\9ce8eac8d2713f300aacb86a396bc850.php 第 83 行.
+NOTIC: [8] Use of undefined constant yes - assumed 'yes' F:\wamp\ThinkPHP_Project\jxshop\Application\Runtime\Cache\Admin\9ce8eac8d2713f300aacb86a396bc850.php 第 82 行.
+NOTIC: [8] Use of undefined constant yes - assumed 'yes' F:\wamp\ThinkPHP_Project\jxshop\Application\Runtime\Cache\Admin\9ce8eac8d2713f300aacb86a396bc850.php 第 83 行.
+NOTIC: [8] Use of undefined constant yes - assumed 'yes' F:\wamp\ThinkPHP_Project\jxshop\Application\Runtime\Cache\Admin\9ce8eac8d2713f300aacb86a396bc850.php 第 82 行.
+NOTIC: [8] Use of undefined constant no - assumed 'no' F:\wamp\ThinkPHP_Project\jxshop\Application\Runtime\Cache\Admin\9ce8eac8d2713f300aacb86a396bc850.php 第 83 行.
+NOTIC: [8] Use of undefined constant yes - assumed 'yes' F:\wamp\ThinkPHP_Project\jxshop\Application\Runtime\Cache\Admin\9ce8eac8d2713f300aacb86a396bc850.php 第 82 行.
+NOTIC: [8] Use of undefined constant no - assumed 'no' F:\wamp\ThinkPHP_Project\jxshop\Application\Runtime\Cache\Admin\9ce8eac8d2713f300aacb86a396bc850.php 第 83 行.
+NOTIC: [8] Use of undefined constant yes - assumed 'yes' F:\wamp\ThinkPHP_Project\jxshop\Application\Runtime\Cache\Admin\9ce8eac8d2713f300aacb86a396bc850.php 第 82 行.
+NOTIC: [8] Use of undefined constant no - assumed 'no' F:\wamp\ThinkPHP_Project\jxshop\Application\Runtime\Cache\Admin\9ce8eac8d2713f300aacb86a396bc850.php 第 83 行.
+NOTIC: [8] Use of undefined constant yes - assumed 'yes' F:\wamp\ThinkPHP_Project\jxshop\Application\Runtime\Cache\Admin\9ce8eac8d2713f300aacb86a396bc850.php 第 82 行.
+NOTIC: [8] Use of undefined constant yes - assumed 'yes' F:\wamp\ThinkPHP_Project\jxshop\Application\Runtime\Cache\Admin\9ce8eac8d2713f300aacb86a396bc850.php 第 83 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.010270s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.010303s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000623s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000650s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000906s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000948s ]
+
+[ 2018-12-08T20:10:09+08:00 ] 127.0.0.1 /Admin/Goods/edit/goods_id/30.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000478s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000784s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000818s ]
+NOTIC: [2048] Declaration of Admin\Model\GoodsModel::_after_insert() should be compatible with Think\Model::_after_insert($data, $options) F:\wamp\ThinkPHP_Project\jxshop\Application\Admin\Model\GoodsModel.class.php 第 9 行.
+SQL: SELECT * FROM `jx_goods` WHERE ( id=30 ) LIMIT 1   [ RunTime:0.0004s ]
+SQL: SELECT * FROM `jx_category`  [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `jx_goods_cate` [ RunTime:0.0027s ]
+SQL: SELECT * FROM `jx_goods_cate` WHERE ( goods_id=30 )  [ RunTime:0.0003s ]
+SQL: SELECT * FROM `jx_type`  [ RunTime:0.0002s ]
+SQL: SELECT a.*,b.attr_name,b.attr_type,b.attr_input_type,b.attr_value FROM jx_goods_attr a left join jx_attribute b on a.attr_id = b.id  WHERE ( goods_id=30 )  [ RunTime:0.0003s ]
+SQL: SELECT * FROM `jx_goods_img` WHERE ( goods_id=30 )  [ RunTime:0.0002s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000103s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000140s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.014875s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.014912s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000549s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000575s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000934s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000975s ]
+
+[ 2018-12-08T20:10:22+08:00 ] 127.0.0.1 /Admin/Goods/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000525s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000732s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000767s ]
+SQL: SELECT * FROM `jx_category`  [ RunTime:0.0003s ]
+NOTIC: [2048] Declaration of Admin\Model\GoodsModel::_after_insert() should be compatible with Think\Model::_after_insert($data, $options) F:\wamp\ThinkPHP_Project\jxshop\Application\Admin\Model\GoodsModel.class.php 第 373 行.
+SQL: SELECT COUNT(*) AS tp_count FROM `jx_goods` WHERE ( isdel=1 ) LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `jx_goods` WHERE ( isdel=1 ) ORDER BY id desc LIMIT 0,6   [ RunTime:0.0004s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000065s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000100s ]
+NOTIC: [8] Undefined index: cate_id F:\wamp\ThinkPHP_Project\jxshop\Application\Runtime\Cache\Admin\9ce8eac8d2713f300aacb86a396bc850.php 第 35 行.
+NOTIC: [8] Undefined index: cate_id F:\wamp\ThinkPHP_Project\jxshop\Application\Runtime\Cache\Admin\9ce8eac8d2713f300aacb86a396bc850.php 第 35 行.
+NOTIC: [8] Undefined index: cate_id F:\wamp\ThinkPHP_Project\jxshop\Application\Runtime\Cache\Admin\9ce8eac8d2713f300aacb86a396bc850.php 第 35 行.
+NOTIC: [8] Undefined index: cate_id F:\wamp\ThinkPHP_Project\jxshop\Application\Runtime\Cache\Admin\9ce8eac8d2713f300aacb86a396bc850.php 第 35 行.
+NOTIC: [8] Undefined index: cate_id F:\wamp\ThinkPHP_Project\jxshop\Application\Runtime\Cache\Admin\9ce8eac8d2713f300aacb86a396bc850.php 第 35 行.
+NOTIC: [8] Undefined index: cate_id F:\wamp\ThinkPHP_Project\jxshop\Application\Runtime\Cache\Admin\9ce8eac8d2713f300aacb86a396bc850.php 第 35 行.
+NOTIC: [8] Undefined index: cate_id F:\wamp\ThinkPHP_Project\jxshop\Application\Runtime\Cache\Admin\9ce8eac8d2713f300aacb86a396bc850.php 第 35 行.
+NOTIC: [8] Undefined index: cate_id F:\wamp\ThinkPHP_Project\jxshop\Application\Runtime\Cache\Admin\9ce8eac8d2713f300aacb86a396bc850.php 第 35 行.
+NOTIC: [8] Undefined index: cate_id F:\wamp\ThinkPHP_Project\jxshop\Application\Runtime\Cache\Admin\9ce8eac8d2713f300aacb86a396bc850.php 第 35 行.
+NOTIC: [8] Undefined index: cate_id F:\wamp\ThinkPHP_Project\jxshop\Application\Runtime\Cache\Admin\9ce8eac8d2713f300aacb86a396bc850.php 第 35 行.
+NOTIC: [8] Undefined index: cate_id F:\wamp\ThinkPHP_Project\jxshop\Application\Runtime\Cache\Admin\9ce8eac8d2713f300aacb86a396bc850.php 第 35 行.
+NOTIC: [8] Undefined index: cate_id F:\wamp\ThinkPHP_Project\jxshop\Application\Runtime\Cache\Admin\9ce8eac8d2713f300aacb86a396bc850.php 第 35 行.
+NOTIC: [8] Undefined index: cate_id F:\wamp\ThinkPHP_Project\jxshop\Application\Runtime\Cache\Admin\9ce8eac8d2713f300aacb86a396bc850.php 第 35 行.
+NOTIC: [8] Undefined index: cate_id F:\wamp\ThinkPHP_Project\jxshop\Application\Runtime\Cache\Admin\9ce8eac8d2713f300aacb86a396bc850.php 第 35 行.
+NOTIC: [8] Undefined index: cate_id F:\wamp\ThinkPHP_Project\jxshop\Application\Runtime\Cache\Admin\9ce8eac8d2713f300aacb86a396bc850.php 第 35 行.
+NOTIC: [8] Undefined index: cate_id F:\wamp\ThinkPHP_Project\jxshop\Application\Runtime\Cache\Admin\9ce8eac8d2713f300aacb86a396bc850.php 第 35 行.
+NOTIC: [8] Undefined index: cate_id F:\wamp\ThinkPHP_Project\jxshop\Application\Runtime\Cache\Admin\9ce8eac8d2713f300aacb86a396bc850.php 第 35 行.
+NOTIC: [8] Undefined index: cate_id F:\wamp\ThinkPHP_Project\jxshop\Application\Runtime\Cache\Admin\9ce8eac8d2713f300aacb86a396bc850.php 第 35 行.
+NOTIC: [8] Undefined index: cate_id F:\wamp\ThinkPHP_Project\jxshop\Application\Runtime\Cache\Admin\9ce8eac8d2713f300aacb86a396bc850.php 第 35 行.
+NOTIC: [8] Undefined index: cate_id F:\wamp\ThinkPHP_Project\jxshop\Application\Runtime\Cache\Admin\9ce8eac8d2713f300aacb86a396bc850.php 第 35 行.
+NOTIC: [8] Undefined index: cate_id F:\wamp\ThinkPHP_Project\jxshop\Application\Runtime\Cache\Admin\9ce8eac8d2713f300aacb86a396bc850.php 第 35 行.
+NOTIC: [8] Undefined index: cate_id F:\wamp\ThinkPHP_Project\jxshop\Application\Runtime\Cache\Admin\9ce8eac8d2713f300aacb86a396bc850.php 第 35 行.
+NOTIC: [8] Undefined index: cate_id F:\wamp\ThinkPHP_Project\jxshop\Application\Runtime\Cache\Admin\9ce8eac8d2713f300aacb86a396bc850.php 第 35 行.
+NOTIC: [8] Undefined index: cate_id F:\wamp\ThinkPHP_Project\jxshop\Application\Runtime\Cache\Admin\9ce8eac8d2713f300aacb86a396bc850.php 第 35 行.
+NOTIC: [8] Undefined index: cate_id F:\wamp\ThinkPHP_Project\jxshop\Application\Runtime\Cache\Admin\9ce8eac8d2713f300aacb86a396bc850.php 第 35 行.
+NOTIC: [8] Undefined index: cate_id F:\wamp\ThinkPHP_Project\jxshop\Application\Runtime\Cache\Admin\9ce8eac8d2713f300aacb86a396bc850.php 第 35 行.
+NOTIC: [8] Undefined index: cate_id F:\wamp\ThinkPHP_Project\jxshop\Application\Runtime\Cache\Admin\9ce8eac8d2713f300aacb86a396bc850.php 第 35 行.
+NOTIC: [8] Undefined index: intro_type F:\wamp\ThinkPHP_Project\jxshop\Application\Runtime\Cache\Admin\9ce8eac8d2713f300aacb86a396bc850.php 第 40 行.
+NOTIC: [8] Undefined index: intro_type F:\wamp\ThinkPHP_Project\jxshop\Application\Runtime\Cache\Admin\9ce8eac8d2713f300aacb86a396bc850.php 第 41 行.
+NOTIC: [8] Undefined index: intro_type F:\wamp\ThinkPHP_Project\jxshop\Application\Runtime\Cache\Admin\9ce8eac8d2713f300aacb86a396bc850.php 第 42 行.
+NOTIC: [8] Undefined index: is_sale F:\wamp\ThinkPHP_Project\jxshop\Application\Runtime\Cache\Admin\9ce8eac8d2713f300aacb86a396bc850.php 第 46 行.
+NOTIC: [8] Undefined index: is_sale F:\wamp\ThinkPHP_Project\jxshop\Application\Runtime\Cache\Admin\9ce8eac8d2713f300aacb86a396bc850.php 第 47 行.
+NOTIC: [8] Undefined index: is_sale F:\wamp\ThinkPHP_Project\jxshop\Application\Runtime\Cache\Admin\9ce8eac8d2713f300aacb86a396bc850.php 第 48 行.
+NOTIC: [8] Undefined index: is_desc F:\wamp\ThinkPHP_Project\jxshop\Application\Runtime\Cache\Admin\9ce8eac8d2713f300aacb86a396bc850.php 第 53 行.
+NOTIC: [8] Undefined index: is_desc F:\wamp\ThinkPHP_Project\jxshop\Application\Runtime\Cache\Admin\9ce8eac8d2713f300aacb86a396bc850.php 第 54 行.
+NOTIC: [8] Undefined index: keyword F:\wamp\ThinkPHP_Project\jxshop\Application\Runtime\Cache\Admin\9ce8eac8d2713f300aacb86a396bc850.php 第 57 行.
+NOTIC: [8] Use of undefined constant yes - assumed 'yes' F:\wamp\ThinkPHP_Project\jxshop\Application\Runtime\Cache\Admin\9ce8eac8d2713f300aacb86a396bc850.php 第 82 行.
+NOTIC: [8] Use of undefined constant yes - assumed 'yes' F:\wamp\ThinkPHP_Project\jxshop\Application\Runtime\Cache\Admin\9ce8eac8d2713f300aacb86a396bc850.php 第 83 行.
+NOTIC: [8] Use of undefined constant yes - assumed 'yes' F:\wamp\ThinkPHP_Project\jxshop\Application\Runtime\Cache\Admin\9ce8eac8d2713f300aacb86a396bc850.php 第 82 行.
+NOTIC: [8] Use of undefined constant yes - assumed 'yes' F:\wamp\ThinkPHP_Project\jxshop\Application\Runtime\Cache\Admin\9ce8eac8d2713f300aacb86a396bc850.php 第 83 行.
+NOTIC: [8] Use of undefined constant yes - assumed 'yes' F:\wamp\ThinkPHP_Project\jxshop\Application\Runtime\Cache\Admin\9ce8eac8d2713f300aacb86a396bc850.php 第 82 行.
+NOTIC: [8] Use of undefined constant no - assumed 'no' F:\wamp\ThinkPHP_Project\jxshop\Application\Runtime\Cache\Admin\9ce8eac8d2713f300aacb86a396bc850.php 第 83 行.
+NOTIC: [8] Use of undefined constant yes - assumed 'yes' F:\wamp\ThinkPHP_Project\jxshop\Application\Runtime\Cache\Admin\9ce8eac8d2713f300aacb86a396bc850.php 第 82 行.
+NOTIC: [8] Use of undefined constant no - assumed 'no' F:\wamp\ThinkPHP_Project\jxshop\Application\Runtime\Cache\Admin\9ce8eac8d2713f300aacb86a396bc850.php 第 83 行.
+NOTIC: [8] Use of undefined constant yes - assumed 'yes' F:\wamp\ThinkPHP_Project\jxshop\Application\Runtime\Cache\Admin\9ce8eac8d2713f300aacb86a396bc850.php 第 82 行.
+NOTIC: [8] Use of undefined constant no - assumed 'no' F:\wamp\ThinkPHP_Project\jxshop\Application\Runtime\Cache\Admin\9ce8eac8d2713f300aacb86a396bc850.php 第 83 行.
+NOTIC: [8] Use of undefined constant yes - assumed 'yes' F:\wamp\ThinkPHP_Project\jxshop\Application\Runtime\Cache\Admin\9ce8eac8d2713f300aacb86a396bc850.php 第 82 行.
+NOTIC: [8] Use of undefined constant yes - assumed 'yes' F:\wamp\ThinkPHP_Project\jxshop\Application\Runtime\Cache\Admin\9ce8eac8d2713f300aacb86a396bc850.php 第 83 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.009951s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.009988s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000581s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000610s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000847s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000890s ]
+
+[ 2018-12-08T20:25:32+08:00 ] 127.0.0.1 /Admin/Goods/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000739s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000751s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000784s ]
+SQL: SELECT * FROM `jx_category`  [ RunTime:0.0007s ]
+NOTIC: [2048] Declaration of Admin\Model\GoodsModel::_after_insert() should be compatible with Think\Model::_after_insert($data, $options) F:\wamp\ThinkPHP_Project\jxshop\Application\Admin\Model\GoodsModel.class.php 第 373 行.
+SQL: SELECT COUNT(*) AS tp_count FROM `jx_goods` WHERE ( isdel=1 ) LIMIT 1   [ RunTime:0.0004s ]
+SQL: SELECT * FROM `jx_goods` WHERE ( isdel=1 ) ORDER BY id desc LIMIT 0,6   [ RunTime:0.0004s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000065s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000097s ]
+NOTIC: [8] Undefined index: cate_id F:\wamp\ThinkPHP_Project\jxshop\Application\Runtime\Cache\Admin\9ce8eac8d2713f300aacb86a396bc850.php 第 35 行.
+NOTIC: [8] Undefined index: cate_id F:\wamp\ThinkPHP_Project\jxshop\Application\Runtime\Cache\Admin\9ce8eac8d2713f300aacb86a396bc850.php 第 35 行.
+NOTIC: [8] Undefined index: cate_id F:\wamp\ThinkPHP_Project\jxshop\Application\Runtime\Cache\Admin\9ce8eac8d2713f300aacb86a396bc850.php 第 35 行.
+NOTIC: [8] Undefined index: cate_id F:\wamp\ThinkPHP_Project\jxshop\Application\Runtime\Cache\Admin\9ce8eac8d2713f300aacb86a396bc850.php 第 35 行.
+NOTIC: [8] Undefined index: cate_id F:\wamp\ThinkPHP_Project\jxshop\Application\Runtime\Cache\Admin\9ce8eac8d2713f300aacb86a396bc850.php 第 35 行.
+NOTIC: [8] Undefined index: cate_id F:\wamp\ThinkPHP_Project\jxshop\Application\Runtime\Cache\Admin\9ce8eac8d2713f300aacb86a396bc850.php 第 35 行.
+NOTIC: [8] Undefined index: cate_id F:\wamp\ThinkPHP_Project\jxshop\Application\Runtime\Cache\Admin\9ce8eac8d2713f300aacb86a396bc850.php 第 35 行.
+NOTIC: [8] Undefined index: cate_id F:\wamp\ThinkPHP_Project\jxshop\Application\Runtime\Cache\Admin\9ce8eac8d2713f300aacb86a396bc850.php 第 35 行.
+NOTIC: [8] Undefined index: cate_id F:\wamp\ThinkPHP_Project\jxshop\Application\Runtime\Cache\Admin\9ce8eac8d2713f300aacb86a396bc850.php 第 35 行.
+NOTIC: [8] Undefined index: cate_id F:\wamp\ThinkPHP_Project\jxshop\Application\Runtime\Cache\Admin\9ce8eac8d2713f300aacb86a396bc850.php 第 35 行.
+NOTIC: [8] Undefined index: cate_id F:\wamp\ThinkPHP_Project\jxshop\Application\Runtime\Cache\Admin\9ce8eac8d2713f300aacb86a396bc850.php 第 35 行.
+NOTIC: [8] Undefined index: cate_id F:\wamp\ThinkPHP_Project\jxshop\Application\Runtime\Cache\Admin\9ce8eac8d2713f300aacb86a396bc850.php 第 35 行.
+NOTIC: [8] Undefined index: cate_id F:\wamp\ThinkPHP_Project\jxshop\Application\Runtime\Cache\Admin\9ce8eac8d2713f300aacb86a396bc850.php 第 35 行.
+NOTIC: [8] Undefined index: cate_id F:\wamp\ThinkPHP_Project\jxshop\Application\Runtime\Cache\Admin\9ce8eac8d2713f300aacb86a396bc850.php 第 35 行.
+NOTIC: [8] Undefined index: cate_id F:\wamp\ThinkPHP_Project\jxshop\Application\Runtime\Cache\Admin\9ce8eac8d2713f300aacb86a396bc850.php 第 35 行.
+NOTIC: [8] Undefined index: cate_id F:\wamp\ThinkPHP_Project\jxshop\Application\Runtime\Cache\Admin\9ce8eac8d2713f300aacb86a396bc850.php 第 35 行.
+NOTIC: [8] Undefined index: cate_id F:\wamp\ThinkPHP_Project\jxshop\Application\Runtime\Cache\Admin\9ce8eac8d2713f300aacb86a396bc850.php 第 35 行.
+NOTIC: [8] Undefined index: cate_id F:\wamp\ThinkPHP_Project\jxshop\Application\Runtime\Cache\Admin\9ce8eac8d2713f300aacb86a396bc850.php 第 35 行.
+NOTIC: [8] Undefined index: cate_id F:\wamp\ThinkPHP_Project\jxshop\Application\Runtime\Cache\Admin\9ce8eac8d2713f300aacb86a396bc850.php 第 35 行.
+NOTIC: [8] Undefined index: cate_id F:\wamp\ThinkPHP_Project\jxshop\Application\Runtime\Cache\Admin\9ce8eac8d2713f300aacb86a396bc850.php 第 35 行.
+NOTIC: [8] Undefined index: cate_id F:\wamp\ThinkPHP_Project\jxshop\Application\Runtime\Cache\Admin\9ce8eac8d2713f300aacb86a396bc850.php 第 35 行.
+NOTIC: [8] Undefined index: cate_id F:\wamp\ThinkPHP_Project\jxshop\Application\Runtime\Cache\Admin\9ce8eac8d2713f300aacb86a396bc850.php 第 35 行.
+NOTIC: [8] Undefined index: cate_id F:\wamp\ThinkPHP_Project\jxshop\Application\Runtime\Cache\Admin\9ce8eac8d2713f300aacb86a396bc850.php 第 35 行.
+NOTIC: [8] Undefined index: cate_id F:\wamp\ThinkPHP_Project\jxshop\Application\Runtime\Cache\Admin\9ce8eac8d2713f300aacb86a396bc850.php 第 35 行.
+NOTIC: [8] Undefined index: cate_id F:\wamp\ThinkPHP_Project\jxshop\Application\Runtime\Cache\Admin\9ce8eac8d2713f300aacb86a396bc850.php 第 35 行.
+NOTIC: [8] Undefined index: cate_id F:\wamp\ThinkPHP_Project\jxshop\Application\Runtime\Cache\Admin\9ce8eac8d2713f300aacb86a396bc850.php 第 35 行.
+NOTIC: [8] Undefined index: cate_id F:\wamp\ThinkPHP_Project\jxshop\Application\Runtime\Cache\Admin\9ce8eac8d2713f300aacb86a396bc850.php 第 35 行.
+NOTIC: [8] Undefined index: intro_type F:\wamp\ThinkPHP_Project\jxshop\Application\Runtime\Cache\Admin\9ce8eac8d2713f300aacb86a396bc850.php 第 40 行.
+NOTIC: [8] Undefined index: intro_type F:\wamp\ThinkPHP_Project\jxshop\Application\Runtime\Cache\Admin\9ce8eac8d2713f300aacb86a396bc850.php 第 41 行.
+NOTIC: [8] Undefined index: intro_type F:\wamp\ThinkPHP_Project\jxshop\Application\Runtime\Cache\Admin\9ce8eac8d2713f300aacb86a396bc850.php 第 42 行.
+NOTIC: [8] Undefined index: is_sale F:\wamp\ThinkPHP_Project\jxshop\Application\Runtime\Cache\Admin\9ce8eac8d2713f300aacb86a396bc850.php 第 46 行.
+NOTIC: [8] Undefined index: is_sale F:\wamp\ThinkPHP_Project\jxshop\Application\Runtime\Cache\Admin\9ce8eac8d2713f300aacb86a396bc850.php 第 47 行.
+NOTIC: [8] Undefined index: is_sale F:\wamp\ThinkPHP_Project\jxshop\Application\Runtime\Cache\Admin\9ce8eac8d2713f300aacb86a396bc850.php 第 48 行.
+NOTIC: [8] Undefined index: is_desc F:\wamp\ThinkPHP_Project\jxshop\Application\Runtime\Cache\Admin\9ce8eac8d2713f300aacb86a396bc850.php 第 53 行.
+NOTIC: [8] Undefined index: is_desc F:\wamp\ThinkPHP_Project\jxshop\Application\Runtime\Cache\Admin\9ce8eac8d2713f300aacb86a396bc850.php 第 54 行.
+NOTIC: [8] Undefined index: keyword F:\wamp\ThinkPHP_Project\jxshop\Application\Runtime\Cache\Admin\9ce8eac8d2713f300aacb86a396bc850.php 第 57 行.
+NOTIC: [8] Use of undefined constant yes - assumed 'yes' F:\wamp\ThinkPHP_Project\jxshop\Application\Runtime\Cache\Admin\9ce8eac8d2713f300aacb86a396bc850.php 第 82 行.
+NOTIC: [8] Use of undefined constant yes - assumed 'yes' F:\wamp\ThinkPHP_Project\jxshop\Application\Runtime\Cache\Admin\9ce8eac8d2713f300aacb86a396bc850.php 第 83 行.
+NOTIC: [8] Use of undefined constant yes - assumed 'yes' F:\wamp\ThinkPHP_Project\jxshop\Application\Runtime\Cache\Admin\9ce8eac8d2713f300aacb86a396bc850.php 第 82 行.
+NOTIC: [8] Use of undefined constant yes - assumed 'yes' F:\wamp\ThinkPHP_Project\jxshop\Application\Runtime\Cache\Admin\9ce8eac8d2713f300aacb86a396bc850.php 第 83 行.
+NOTIC: [8] Use of undefined constant yes - assumed 'yes' F:\wamp\ThinkPHP_Project\jxshop\Application\Runtime\Cache\Admin\9ce8eac8d2713f300aacb86a396bc850.php 第 82 行.
+NOTIC: [8] Use of undefined constant no - assumed 'no' F:\wamp\ThinkPHP_Project\jxshop\Application\Runtime\Cache\Admin\9ce8eac8d2713f300aacb86a396bc850.php 第 83 行.
+NOTIC: [8] Use of undefined constant yes - assumed 'yes' F:\wamp\ThinkPHP_Project\jxshop\Application\Runtime\Cache\Admin\9ce8eac8d2713f300aacb86a396bc850.php 第 82 行.
+NOTIC: [8] Use of undefined constant no - assumed 'no' F:\wamp\ThinkPHP_Project\jxshop\Application\Runtime\Cache\Admin\9ce8eac8d2713f300aacb86a396bc850.php 第 83 行.
+NOTIC: [8] Use of undefined constant yes - assumed 'yes' F:\wamp\ThinkPHP_Project\jxshop\Application\Runtime\Cache\Admin\9ce8eac8d2713f300aacb86a396bc850.php 第 82 行.
+NOTIC: [8] Use of undefined constant no - assumed 'no' F:\wamp\ThinkPHP_Project\jxshop\Application\Runtime\Cache\Admin\9ce8eac8d2713f300aacb86a396bc850.php 第 83 行.
+NOTIC: [8] Use of undefined constant yes - assumed 'yes' F:\wamp\ThinkPHP_Project\jxshop\Application\Runtime\Cache\Admin\9ce8eac8d2713f300aacb86a396bc850.php 第 82 行.
+NOTIC: [8] Use of undefined constant yes - assumed 'yes' F:\wamp\ThinkPHP_Project\jxshop\Application\Runtime\Cache\Admin\9ce8eac8d2713f300aacb86a396bc850.php 第 83 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.010017s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.010068s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000512s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000555s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001882s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002006s ]
+
+[ 2018-12-08T20:25:33+08:00 ] 127.0.0.1 /Admin/Goods/edit/goods_id/30.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000017s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000576s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000807s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000875s ]
+NOTIC: [2048] Declaration of Admin\Model\GoodsModel::_after_insert() should be compatible with Think\Model::_after_insert($data, $options) F:\wamp\ThinkPHP_Project\jxshop\Application\Admin\Model\GoodsModel.class.php 第 9 行.
+SQL: SELECT * FROM `jx_goods` WHERE ( id=30 ) LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `jx_category`  [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `jx_goods_cate` [ RunTime:0.0033s ]
+SQL: SELECT * FROM `jx_goods_cate` WHERE ( goods_id=30 )  [ RunTime:0.0004s ]
+SQL: SELECT * FROM `jx_type`  [ RunTime:0.0004s ]
+SQL: SELECT a.*,b.attr_name,b.attr_type,b.attr_input_type,b.attr_value FROM jx_goods_attr a left join jx_attribute b on a.attr_id = b.id  WHERE ( goods_id=30 )  [ RunTime:0.0004s ]
+SQL: SELECT * FROM `jx_goods_img` WHERE ( goods_id=30 )  [ RunTime:0.0002s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000108s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000147s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.014313s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.014354s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000573s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000601s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000689s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000727s ]
+
+[ 2018-12-08T20:31:59+08:00 ] 127.0.0.1 /Admin/Goods/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000010s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000423s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000549s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000585s ]
+SQL: SELECT * FROM `jx_category`  [ RunTime:0.0004s ]
+NOTIC: [2048] Declaration of Admin\Model\GoodsModel::_after_insert() should be compatible with Think\Model::_after_insert($data, $options) F:\wamp\ThinkPHP_Project\jxshop\Application\Admin\Model\GoodsModel.class.php 第 373 行.
+SQL: SELECT COUNT(*) AS tp_count FROM `jx_goods` WHERE ( isdel=1 ) LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `jx_goods` WHERE ( isdel=1 ) ORDER BY id desc LIMIT 0,6   [ RunTime:0.0004s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000063s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000099s ]
+NOTIC: [8] Undefined index: cate_id F:\wamp\ThinkPHP_Project\jxshop\Application\Runtime\Cache\Admin\9ce8eac8d2713f300aacb86a396bc850.php 第 35 行.
+NOTIC: [8] Undefined index: cate_id F:\wamp\ThinkPHP_Project\jxshop\Application\Runtime\Cache\Admin\9ce8eac8d2713f300aacb86a396bc850.php 第 35 行.
+NOTIC: [8] Undefined index: cate_id F:\wamp\ThinkPHP_Project\jxshop\Application\Runtime\Cache\Admin\9ce8eac8d2713f300aacb86a396bc850.php 第 35 行.
+NOTIC: [8] Undefined index: cate_id F:\wamp\ThinkPHP_Project\jxshop\Application\Runtime\Cache\Admin\9ce8eac8d2713f300aacb86a396bc850.php 第 35 行.
+NOTIC: [8] Undefined index: cate_id F:\wamp\ThinkPHP_Project\jxshop\Application\Runtime\Cache\Admin\9ce8eac8d2713f300aacb86a396bc850.php 第 35 行.
+NOTIC: [8] Undefined index: cate_id F:\wamp\ThinkPHP_Project\jxshop\Application\Runtime\Cache\Admin\9ce8eac8d2713f300aacb86a396bc850.php 第 35 行.
+NOTIC: [8] Undefined index: cate_id F:\wamp\ThinkPHP_Project\jxshop\Application\Runtime\Cache\Admin\9ce8eac8d2713f300aacb86a396bc850.php 第 35 行.
+NOTIC: [8] Undefined index: cate_id F:\wamp\ThinkPHP_Project\jxshop\Application\Runtime\Cache\Admin\9ce8eac8d2713f300aacb86a396bc850.php 第 35 行.
+NOTIC: [8] Undefined index: cate_id F:\wamp\ThinkPHP_Project\jxshop\Application\Runtime\Cache\Admin\9ce8eac8d2713f300aacb86a396bc850.php 第 35 行.
+NOTIC: [8] Undefined index: cate_id F:\wamp\ThinkPHP_Project\jxshop\Application\Runtime\Cache\Admin\9ce8eac8d2713f300aacb86a396bc850.php 第 35 行.
+NOTIC: [8] Undefined index: cate_id F:\wamp\ThinkPHP_Project\jxshop\Application\Runtime\Cache\Admin\9ce8eac8d2713f300aacb86a396bc850.php 第 35 行.
+NOTIC: [8] Undefined index: cate_id F:\wamp\ThinkPHP_Project\jxshop\Application\Runtime\Cache\Admin\9ce8eac8d2713f300aacb86a396bc850.php 第 35 行.
+NOTIC: [8] Undefined index: cate_id F:\wamp\ThinkPHP_Project\jxshop\Application\Runtime\Cache\Admin\9ce8eac8d2713f300aacb86a396bc850.php 第 35 行.
+NOTIC: [8] Undefined index: cate_id F:\wamp\ThinkPHP_Project\jxshop\Application\Runtime\Cache\Admin\9ce8eac8d2713f300aacb86a396bc850.php 第 35 行.
+NOTIC: [8] Undefined index: cate_id F:\wamp\ThinkPHP_Project\jxshop\Application\Runtime\Cache\Admin\9ce8eac8d2713f300aacb86a396bc850.php 第 35 行.
+NOTIC: [8] Undefined index: cate_id F:\wamp\ThinkPHP_Project\jxshop\Application\Runtime\Cache\Admin\9ce8eac8d2713f300aacb86a396bc850.php 第 35 行.
+NOTIC: [8] Undefined index: cate_id F:\wamp\ThinkPHP_Project\jxshop\Application\Runtime\Cache\Admin\9ce8eac8d2713f300aacb86a396bc850.php 第 35 行.
+NOTIC: [8] Undefined index: cate_id F:\wamp\ThinkPHP_Project\jxshop\Application\Runtime\Cache\Admin\9ce8eac8d2713f300aacb86a396bc850.php 第 35 行.
+NOTIC: [8] Undefined index: cate_id F:\wamp\ThinkPHP_Project\jxshop\Application\Runtime\Cache\Admin\9ce8eac8d2713f300aacb86a396bc850.php 第 35 行.
+NOTIC: [8] Undefined index: cate_id F:\wamp\ThinkPHP_Project\jxshop\Application\Runtime\Cache\Admin\9ce8eac8d2713f300aacb86a396bc850.php 第 35 行.
+NOTIC: [8] Undefined index: cate_id F:\wamp\ThinkPHP_Project\jxshop\Application\Runtime\Cache\Admin\9ce8eac8d2713f300aacb86a396bc850.php 第 35 行.
+NOTIC: [8] Undefined index: cate_id F:\wamp\ThinkPHP_Project\jxshop\Application\Runtime\Cache\Admin\9ce8eac8d2713f300aacb86a396bc850.php 第 35 行.
+NOTIC: [8] Undefined index: cate_id F:\wamp\ThinkPHP_Project\jxshop\Application\Runtime\Cache\Admin\9ce8eac8d2713f300aacb86a396bc850.php 第 35 行.
+NOTIC: [8] Undefined index: cate_id F:\wamp\ThinkPHP_Project\jxshop\Application\Runtime\Cache\Admin\9ce8eac8d2713f300aacb86a396bc850.php 第 35 行.
+NOTIC: [8] Undefined index: cate_id F:\wamp\ThinkPHP_Project\jxshop\Application\Runtime\Cache\Admin\9ce8eac8d2713f300aacb86a396bc850.php 第 35 行.
+NOTIC: [8] Undefined index: cate_id F:\wamp\ThinkPHP_Project\jxshop\Application\Runtime\Cache\Admin\9ce8eac8d2713f300aacb86a396bc850.php 第 35 行.
+NOTIC: [8] Undefined index: cate_id F:\wamp\ThinkPHP_Project\jxshop\Application\Runtime\Cache\Admin\9ce8eac8d2713f300aacb86a396bc850.php 第 35 行.
+NOTIC: [8] Undefined index: intro_type F:\wamp\ThinkPHP_Project\jxshop\Application\Runtime\Cache\Admin\9ce8eac8d2713f300aacb86a396bc850.php 第 40 行.
+NOTIC: [8] Undefined index: intro_type F:\wamp\ThinkPHP_Project\jxshop\Application\Runtime\Cache\Admin\9ce8eac8d2713f300aacb86a396bc850.php 第 41 行.
+NOTIC: [8] Undefined index: intro_type F:\wamp\ThinkPHP_Project\jxshop\Application\Runtime\Cache\Admin\9ce8eac8d2713f300aacb86a396bc850.php 第 42 行.
+NOTIC: [8] Undefined index: is_sale F:\wamp\ThinkPHP_Project\jxshop\Application\Runtime\Cache\Admin\9ce8eac8d2713f300aacb86a396bc850.php 第 46 行.
+NOTIC: [8] Undefined index: is_sale F:\wamp\ThinkPHP_Project\jxshop\Application\Runtime\Cache\Admin\9ce8eac8d2713f300aacb86a396bc850.php 第 47 行.
+NOTIC: [8] Undefined index: is_sale F:\wamp\ThinkPHP_Project\jxshop\Application\Runtime\Cache\Admin\9ce8eac8d2713f300aacb86a396bc850.php 第 48 行.
+NOTIC: [8] Undefined index: is_desc F:\wamp\ThinkPHP_Project\jxshop\Application\Runtime\Cache\Admin\9ce8eac8d2713f300aacb86a396bc850.php 第 53 行.
+NOTIC: [8] Undefined index: is_desc F:\wamp\ThinkPHP_Project\jxshop\Application\Runtime\Cache\Admin\9ce8eac8d2713f300aacb86a396bc850.php 第 54 行.
+NOTIC: [8] Undefined index: keyword F:\wamp\ThinkPHP_Project\jxshop\Application\Runtime\Cache\Admin\9ce8eac8d2713f300aacb86a396bc850.php 第 57 行.
+NOTIC: [8] Use of undefined constant yes - assumed 'yes' F:\wamp\ThinkPHP_Project\jxshop\Application\Runtime\Cache\Admin\9ce8eac8d2713f300aacb86a396bc850.php 第 82 行.
+NOTIC: [8] Use of undefined constant yes - assumed 'yes' F:\wamp\ThinkPHP_Project\jxshop\Application\Runtime\Cache\Admin\9ce8eac8d2713f300aacb86a396bc850.php 第 83 行.
+NOTIC: [8] Use of undefined constant yes - assumed 'yes' F:\wamp\ThinkPHP_Project\jxshop\Application\Runtime\Cache\Admin\9ce8eac8d2713f300aacb86a396bc850.php 第 82 行.
+NOTIC: [8] Use of undefined constant yes - assumed 'yes' F:\wamp\ThinkPHP_Project\jxshop\Application\Runtime\Cache\Admin\9ce8eac8d2713f300aacb86a396bc850.php 第 83 行.
+NOTIC: [8] Use of undefined constant yes - assumed 'yes' F:\wamp\ThinkPHP_Project\jxshop\Application\Runtime\Cache\Admin\9ce8eac8d2713f300aacb86a396bc850.php 第 82 行.
+NOTIC: [8] Use of undefined constant no - assumed 'no' F:\wamp\ThinkPHP_Project\jxshop\Application\Runtime\Cache\Admin\9ce8eac8d2713f300aacb86a396bc850.php 第 83 行.
+NOTIC: [8] Use of undefined constant yes - assumed 'yes' F:\wamp\ThinkPHP_Project\jxshop\Application\Runtime\Cache\Admin\9ce8eac8d2713f300aacb86a396bc850.php 第 82 行.
+NOTIC: [8] Use of undefined constant no - assumed 'no' F:\wamp\ThinkPHP_Project\jxshop\Application\Runtime\Cache\Admin\9ce8eac8d2713f300aacb86a396bc850.php 第 83 行.
+NOTIC: [8] Use of undefined constant yes - assumed 'yes' F:\wamp\ThinkPHP_Project\jxshop\Application\Runtime\Cache\Admin\9ce8eac8d2713f300aacb86a396bc850.php 第 82 行.
+NOTIC: [8] Use of undefined constant no - assumed 'no' F:\wamp\ThinkPHP_Project\jxshop\Application\Runtime\Cache\Admin\9ce8eac8d2713f300aacb86a396bc850.php 第 83 行.
+NOTIC: [8] Use of undefined constant yes - assumed 'yes' F:\wamp\ThinkPHP_Project\jxshop\Application\Runtime\Cache\Admin\9ce8eac8d2713f300aacb86a396bc850.php 第 82 行.
+NOTIC: [8] Use of undefined constant yes - assumed 'yes' F:\wamp\ThinkPHP_Project\jxshop\Application\Runtime\Cache\Admin\9ce8eac8d2713f300aacb86a396bc850.php 第 83 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.009956s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.009990s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000385s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000412s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.003598s ]
+INFO: [ app_end ] --END-- [ RunTime:0.003644s ]
+
+[ 2018-12-08T20:32:03+08:00 ] 127.0.0.1 /Admin/Goods/edit/goods_id/29.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000536s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000603s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000642s ]
+NOTIC: [2048] Declaration of Admin\Model\GoodsModel::_after_insert() should be compatible with Think\Model::_after_insert($data, $options) F:\wamp\ThinkPHP_Project\jxshop\Application\Admin\Model\GoodsModel.class.php 第 9 行.
+SQL: SELECT * FROM `jx_goods` WHERE ( id=29 ) LIMIT 1   [ RunTime:0.0004s ]
+SQL: SELECT * FROM `jx_category`  [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `jx_goods_cate` [ RunTime:0.0029s ]
+SQL: SELECT * FROM `jx_goods_cate` WHERE ( goods_id=29 )  [ RunTime:0.0003s ]
+SQL: SELECT * FROM `jx_type`  [ RunTime:0.0004s ]
+SQL: SELECT a.*,b.attr_name,b.attr_type,b.attr_input_type,b.attr_value FROM jx_goods_attr a left join jx_attribute b on a.attr_id = b.id  WHERE ( goods_id=29 )  [ RunTime:0.0005s ]
+SQL: SELECT * FROM `jx_goods_img` WHERE ( goods_id=29 )  [ RunTime:0.0003s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000104s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000159s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.014050s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.014093s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000496s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000522s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000908s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000948s ]
+
+[ 2018-12-08T20:32:23+08:00 ] 127.0.0.1 /Admin/Goods/edit/goods_id/29.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000018s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000703s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000766s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000810s ]
+NOTIC: [2048] Declaration of Admin\Model\GoodsModel::_after_insert() should be compatible with Think\Model::_after_insert($data, $options) F:\wamp\ThinkPHP_Project\jxshop\Application\Admin\Model\GoodsModel.class.php 第 9 行.
+NOTIC: [8] Undefined index: validate F:\wamp\ThinkPHP_Project\jxshop\ThinkPHP\Library\Think\Model.class.php 第 1185 行.
+NOTIC: [8] Undefined index: auto F:\wamp\ThinkPHP_Project\jxshop\ThinkPHP\Library\Think\Model.class.php 第 1128 行.
+SQL: SELECT * FROM `jx_goods` WHERE ( goods_sn = '5bfa6ed4abfbf' AND id != 29 ) LIMIT 1   [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `jx_goods_cate` [ RunTime:0.0028s ]
+SQL: DELETE FROM `jx_goods_cate` WHERE ( goods_id = 29 ) [ RunTime:0.2057s ]
+SQL: INSERT INTO `jx_goods_cate` (`goods_id`,`cate_id`) VALUES ('29','12'),('29','8') [ RunTime:0.1036s ]
+SQL: DELETE FROM `jx_goods_attr` WHERE ( goods_id=29 ) [ RunTime:0.1540s ]
+SQL: INSERT INTO `jx_goods_attr` (`goods_id`,`attr_id`,`attr_values`) VALUES ('29','17','55寸'),('29','18','白色'),('29','18','银色'),('29','18','黑色'),('29','19','I3'),('29','19','I5') [ RunTime:0.0500s ]
+NOTIC: [2] finfo_file(): Empty filename or path F:\wamp\ThinkPHP_Project\jxshop\ThinkPHP\Library\Think\Upload.class.php 第 152 行.
+NOTIC: [2] Invalid argument supplied for foreach() F:\wamp\ThinkPHP_Project\jxshop\Application\Admin\Model\GoodsModel.class.php 第 45 行.
+NOTIC: [8] Undefined variable: list F:\wamp\ThinkPHP_Project\jxshop\Application\Admin\Model\GoodsModel.class.php 第 58 行.
+SQL: UPDATE `jx_goods` SET `goods_name`='Eg智能电视 54寸4K屏 终极巨献测试专用电视',`goods_sn`='5bfa6ed4abfbf',`cx_price`='444.00',`start`='1543046208',`end`='1574927808',`cate_id`='7',`shop_price`='4999.00',`is_sale`='1',`is_hot`='1',`is_new`='1',`is_rec`='1',`market_price`='4999.00',`type_id`='3',`goods_body`='&lt;p&gt;Eg智能电视&lt;/p&gt;' WHERE `id` = '29' [ RunTime:0.0690s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000037s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000070s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.005439s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.005479s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000541s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000583s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000691s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000730s ]
+
+[ 2018-12-08T20:32:24+08:00 ] 127.0.0.1 /Admin/Goods/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000010s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000398s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000688s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000735s ]
+SQL: SELECT * FROM `jx_category`  [ RunTime:0.0003s ]
+NOTIC: [2048] Declaration of Admin\Model\GoodsModel::_after_insert() should be compatible with Think\Model::_after_insert($data, $options) F:\wamp\ThinkPHP_Project\jxshop\Application\Admin\Model\GoodsModel.class.php 第 373 行.
+SQL: SELECT COUNT(*) AS tp_count FROM `jx_goods` WHERE ( isdel=1 ) LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `jx_goods` WHERE ( isdel=1 ) ORDER BY id desc LIMIT 0,6   [ RunTime:0.0005s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000063s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000099s ]
+NOTIC: [8] Undefined index: cate_id F:\wamp\ThinkPHP_Project\jxshop\Application\Runtime\Cache\Admin\9ce8eac8d2713f300aacb86a396bc850.php 第 35 行.
+NOTIC: [8] Undefined index: cate_id F:\wamp\ThinkPHP_Project\jxshop\Application\Runtime\Cache\Admin\9ce8eac8d2713f300aacb86a396bc850.php 第 35 行.
+NOTIC: [8] Undefined index: cate_id F:\wamp\ThinkPHP_Project\jxshop\Application\Runtime\Cache\Admin\9ce8eac8d2713f300aacb86a396bc850.php 第 35 行.
+NOTIC: [8] Undefined index: cate_id F:\wamp\ThinkPHP_Project\jxshop\Application\Runtime\Cache\Admin\9ce8eac8d2713f300aacb86a396bc850.php 第 35 行.
+NOTIC: [8] Undefined index: cate_id F:\wamp\ThinkPHP_Project\jxshop\Application\Runtime\Cache\Admin\9ce8eac8d2713f300aacb86a396bc850.php 第 35 行.
+NOTIC: [8] Undefined index: cate_id F:\wamp\ThinkPHP_Project\jxshop\Application\Runtime\Cache\Admin\9ce8eac8d2713f300aacb86a396bc850.php 第 35 行.
+NOTIC: [8] Undefined index: cate_id F:\wamp\ThinkPHP_Project\jxshop\Application\Runtime\Cache\Admin\9ce8eac8d2713f300aacb86a396bc850.php 第 35 行.
+NOTIC: [8] Undefined index: cate_id F:\wamp\ThinkPHP_Project\jxshop\Application\Runtime\Cache\Admin\9ce8eac8d2713f300aacb86a396bc850.php 第 35 行.
+NOTIC: [8] Undefined index: cate_id F:\wamp\ThinkPHP_Project\jxshop\Application\Runtime\Cache\Admin\9ce8eac8d2713f300aacb86a396bc850.php 第 35 行.
+NOTIC: [8] Undefined index: cate_id F:\wamp\ThinkPHP_Project\jxshop\Application\Runtime\Cache\Admin\9ce8eac8d2713f300aacb86a396bc850.php 第 35 行.
+NOTIC: [8] Undefined index: cate_id F:\wamp\ThinkPHP_Project\jxshop\Application\Runtime\Cache\Admin\9ce8eac8d2713f300aacb86a396bc850.php 第 35 行.
+NOTIC: [8] Undefined index: cate_id F:\wamp\ThinkPHP_Project\jxshop\Application\Runtime\Cache\Admin\9ce8eac8d2713f300aacb86a396bc850.php 第 35 行.
+NOTIC: [8] Undefined index: cate_id F:\wamp\ThinkPHP_Project\jxshop\Application\Runtime\Cache\Admin\9ce8eac8d2713f300aacb86a396bc850.php 第 35 行.
+NOTIC: [8] Undefined index: cate_id F:\wamp\ThinkPHP_Project\jxshop\Application\Runtime\Cache\Admin\9ce8eac8d2713f300aacb86a396bc850.php 第 35 行.
+NOTIC: [8] Undefined index: cate_id F:\wamp\ThinkPHP_Project\jxshop\Application\Runtime\Cache\Admin\9ce8eac8d2713f300aacb86a396bc850.php 第 35 行.
+NOTIC: [8] Undefined index: cate_id F:\wamp\ThinkPHP_Project\jxshop\Application\Runtime\Cache\Admin\9ce8eac8d2713f300aacb86a396bc850.php 第 35 行.
+NOTIC: [8] Undefined index: cate_id F:\wamp\ThinkPHP_Project\jxshop\Application\Runtime\Cache\Admin\9ce8eac8d2713f300aacb86a396bc850.php 第 35 行.
+NOTIC: [8] Undefined index: cate_id F:\wamp\ThinkPHP_Project\jxshop\Application\Runtime\Cache\Admin\9ce8eac8d2713f300aacb86a396bc850.php 第 35 行.
+NOTIC: [8] Undefined index: cate_id F:\wamp\ThinkPHP_Project\jxshop\Application\Runtime\Cache\Admin\9ce8eac8d2713f300aacb86a396bc850.php 第 35 行.
+NOTIC: [8] Undefined index: cate_id F:\wamp\ThinkPHP_Project\jxshop\Application\Runtime\Cache\Admin\9ce8eac8d2713f300aacb86a396bc850.php 第 35 行.
+NOTIC: [8] Undefined index: cate_id F:\wamp\ThinkPHP_Project\jxshop\Application\Runtime\Cache\Admin\9ce8eac8d2713f300aacb86a396bc850.php 第 35 行.
+NOTIC: [8] Undefined index: cate_id F:\wamp\ThinkPHP_Project\jxshop\Application\Runtime\Cache\Admin\9ce8eac8d2713f300aacb86a396bc850.php 第 35 行.
+NOTIC: [8] Undefined index: cate_id F:\wamp\ThinkPHP_Project\jxshop\Application\Runtime\Cache\Admin\9ce8eac8d2713f300aacb86a396bc850.php 第 35 行.
+NOTIC: [8] Undefined index: cate_id F:\wamp\ThinkPHP_Project\jxshop\Application\Runtime\Cache\Admin\9ce8eac8d2713f300aacb86a396bc850.php 第 35 行.
+NOTIC: [8] Undefined index: cate_id F:\wamp\ThinkPHP_Project\jxshop\Application\Runtime\Cache\Admin\9ce8eac8d2713f300aacb86a396bc850.php 第 35 行.
+NOTIC: [8] Undefined index: cate_id F:\wamp\ThinkPHP_Project\jxshop\Application\Runtime\Cache\Admin\9ce8eac8d2713f300aacb86a396bc850.php 第 35 行.
+NOTIC: [8] Undefined index: cate_id F:\wamp\ThinkPHP_Project\jxshop\Application\Runtime\Cache\Admin\9ce8eac8d2713f300aacb86a396bc850.php 第 35 行.
+NOTIC: [8] Undefined index: intro_type F:\wamp\ThinkPHP_Project\jxshop\Application\Runtime\Cache\Admin\9ce8eac8d2713f300aacb86a396bc850.php 第 40 行.
+NOTIC: [8] Undefined index: intro_type F:\wamp\ThinkPHP_Project\jxshop\Application\Runtime\Cache\Admin\9ce8eac8d2713f300aacb86a396bc850.php 第 41 行.
+NOTIC: [8] Undefined index: intro_type F:\wamp\ThinkPHP_Project\jxshop\Application\Runtime\Cache\Admin\9ce8eac8d2713f300aacb86a396bc850.php 第 42 行.
+NOTIC: [8] Undefined index: is_sale F:\wamp\ThinkPHP_Project\jxshop\Application\Runtime\Cache\Admin\9ce8eac8d2713f300aacb86a396bc850.php 第 46 行.
+NOTIC: [8] Undefined index: is_sale F:\wamp\ThinkPHP_Project\jxshop\Application\Runtime\Cache\Admin\9ce8eac8d2713f300aacb86a396bc850.php 第 47 行.
+NOTIC: [8] Undefined index: is_sale F:\wamp\ThinkPHP_Project\jxshop\Application\Runtime\Cache\Admin\9ce8eac8d2713f300aacb86a396bc850.php 第 48 行.
+NOTIC: [8] Undefined index: is_desc F:\wamp\ThinkPHP_Project\jxshop\Application\Runtime\Cache\Admin\9ce8eac8d2713f300aacb86a396bc850.php 第 53 行.
+NOTIC: [8] Undefined index: is_desc F:\wamp\ThinkPHP_Project\jxshop\Application\Runtime\Cache\Admin\9ce8eac8d2713f300aacb86a396bc850.php 第 54 行.
+NOTIC: [8] Undefined index: keyword F:\wamp\ThinkPHP_Project\jxshop\Application\Runtime\Cache\Admin\9ce8eac8d2713f300aacb86a396bc850.php 第 57 行.
+NOTIC: [8] Use of undefined constant yes - assumed 'yes' F:\wamp\ThinkPHP_Project\jxshop\Application\Runtime\Cache\Admin\9ce8eac8d2713f300aacb86a396bc850.php 第 82 行.
+NOTIC: [8] Use of undefined constant yes - assumed 'yes' F:\wamp\ThinkPHP_Project\jxshop\Application\Runtime\Cache\Admin\9ce8eac8d2713f300aacb86a396bc850.php 第 83 行.
+NOTIC: [8] Use of undefined constant yes - assumed 'yes' F:\wamp\ThinkPHP_Project\jxshop\Application\Runtime\Cache\Admin\9ce8eac8d2713f300aacb86a396bc850.php 第 82 行.
+NOTIC: [8] Use of undefined constant yes - assumed 'yes' F:\wamp\ThinkPHP_Project\jxshop\Application\Runtime\Cache\Admin\9ce8eac8d2713f300aacb86a396bc850.php 第 83 行.
+NOTIC: [8] Use of undefined constant yes - assumed 'yes' F:\wamp\ThinkPHP_Project\jxshop\Application\Runtime\Cache\Admin\9ce8eac8d2713f300aacb86a396bc850.php 第 82 行.
+NOTIC: [8] Use of undefined constant no - assumed 'no' F:\wamp\ThinkPHP_Project\jxshop\Application\Runtime\Cache\Admin\9ce8eac8d2713f300aacb86a396bc850.php 第 83 行.
+NOTIC: [8] Use of undefined constant yes - assumed 'yes' F:\wamp\ThinkPHP_Project\jxshop\Application\Runtime\Cache\Admin\9ce8eac8d2713f300aacb86a396bc850.php 第 82 行.
+NOTIC: [8] Use of undefined constant no - assumed 'no' F:\wamp\ThinkPHP_Project\jxshop\Application\Runtime\Cache\Admin\9ce8eac8d2713f300aacb86a396bc850.php 第 83 行.
+NOTIC: [8] Use of undefined constant yes - assumed 'yes' F:\wamp\ThinkPHP_Project\jxshop\Application\Runtime\Cache\Admin\9ce8eac8d2713f300aacb86a396bc850.php 第 82 行.
+NOTIC: [8] Use of undefined constant no - assumed 'no' F:\wamp\ThinkPHP_Project\jxshop\Application\Runtime\Cache\Admin\9ce8eac8d2713f300aacb86a396bc850.php 第 83 行.
+NOTIC: [8] Use of undefined constant yes - assumed 'yes' F:\wamp\ThinkPHP_Project\jxshop\Application\Runtime\Cache\Admin\9ce8eac8d2713f300aacb86a396bc850.php 第 82 行.
+NOTIC: [8] Use of undefined constant yes - assumed 'yes' F:\wamp\ThinkPHP_Project\jxshop\Application\Runtime\Cache\Admin\9ce8eac8d2713f300aacb86a396bc850.php 第 83 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.010888s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.010920s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000520s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000548s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000822s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000864s ]
+

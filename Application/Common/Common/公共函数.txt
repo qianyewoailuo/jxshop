@@ -1,0 +1,3 @@
+自行创建名为 function.php 的公共函数 
+
+此函数中自定义的方法在Application目录中的所有模块都可调用

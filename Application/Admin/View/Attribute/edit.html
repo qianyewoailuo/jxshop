@@ -1,0 +1,79 @@
+<extend name="Public:base"/>
+<block name="title">ECSHOP - 添加属性 </block>
+<block name="header">
+    <span class="action-span"><a href="{:U('index')}">属性列表</a></span>
+    <span class="action-span1"><a href="#">ECSHOP 管理中心</a></span>
+    <span id="search_id" class="action-span1"> - 添加属性 </span>
+    <div style="clear:both"></div>
+</block>
+<block name="body">
+    <form action="" method="post" name="theForm" enctype="multipart/form-data">
+        <table width="100%" id="general-table">
+            <!-- 属性名称 -->
+            <tr>
+                <td class="label">属性名称:</td>
+                <td>
+                    <input type='text' name='attr_name' maxlength="20" value='{$info.attr_name}' size='27' /> <font color="red">*</font>
+                </td>
+            </tr>
+            <!-- 属性所属类型 -->
+            <tr>
+                <td class="label">属性所属类型:</td>
+                <td>
+                    <select name="type_id">
+                        <volist name="type" id="vo">
+                            <option value="{$vo.id}" <eq name="vo.id" value="$info.type_id">selected</eq> >{$vo.type_name}</option>
+                        </volist>
+                    </select>
+                </td>
+            </tr>
+            <!-- 属性类型 -->
+            <tr>
+                <td class="label">属性类型:</td>
+                <td>
+                    <input type="radio" name="attr_type" value="1" <eq name="info.attr_type" value="1">checked</eq> >唯一
+                    <input type="radio" name="attr_type" value="2" <eq name="info.attr_type" value="2">checked</eq> >单选
+                </td>
+            </tr>
+            <!-- 属性录入方式 -->
+            <tr>
+                <td class="label">属性录入方式:</td>
+                <td>
+                    <input type="radio" name="attr_input_type" value="1" <eq name="info.attr_input_type" value="1">checked</eq> >手工输入
+                    <input type="radio" name="attr_input_type" value="2" <eq name="info.attr_input_type" value="2">checked</eq> >列表选择
+                </td>
+            </tr>
+            <!-- 默认值 -->
+            <tr>
+                <td class="label">[列表选择]默认值:</td>
+                <td>
+                    <textarea name="attr_value" id="" cols="30" rows="3">{$info.attr_value}</textarea>
+                    <span style="font-size:12px">*默认值为列表选择时必须输入,多个值间使用逗号隔开</span>
+                </td>
+            </tr>
+            <input type="hidden" name="id" value="{$info.id}">
+        </table>
+        <div class="button-div">
+            <input type="submit" value=" 确定 " />
+            <input type="reset" value=" 重置 " />
+        </div>
+    </form>
+</block>
+<block name="js">
+    <script>
+        //设置默认值为禁用状态
+        <eq name="info.attr_input_type" value="1">
+            $("textarea[name='attr_value']").attr('disabled',true);
+        </eq>
+        //属性录入值切换绑定事件
+        $("input[name='attr_input_type']").change(function(){
+            var value = $(this).val();
+            if(value == 1){
+                // 原来jq中方法可以连续使用的哦
+                $("textarea[name='attr_value']").attr('disabled',true).val('');
+            }else{
+                $("textarea[name='attr_value']").attr('disabled',false).val('');
+            }
+        });
+    </script>
+</block>
