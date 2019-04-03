@@ -7,6 +7,8 @@
   #下面是忽略入口文件的重写规则
   RewriteRule ^(.*)$ index.php/$1 [QSA,PT,L]
   # 下面是映射重写地址的规则
-  RewriteRule cate-(\d+).html index.php/Home/Category/index/id/$1
-  RewriteRule goods-(\d+).html index.php/Home/Goods/index/goods_id/$1
+  # 例如 >>> http://jxshop.com/cate-7
+  RewriteRule cate-(\d+) index.php/Home/Category/index/id/$1
+  # 例如 >>> http://jxshop.com/Goods-29.html 其中[NC]表示忽略大小写
+  RewriteRule goods-(\d+).html index.php/Home/Goods/index/goods_id/$1 [NC]
 </IfModule>
