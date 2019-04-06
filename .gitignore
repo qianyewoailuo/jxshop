@@ -2,3 +2,4 @@
 .vscode
 jxphp.code-workspace
 logs
+/vendor/

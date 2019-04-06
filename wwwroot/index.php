@@ -11,5 +11,7 @@ define('APP_PATH','../Application/');
 //设置编码 防止乱码
 header('content-type:text/html;charset=utf-8');
 
+// 引入composer
+require '../vendor/autoload.php';
 // 引入ThinkPHP入口文件
 require '../ThinkPHP/ThinkPHP.php';
