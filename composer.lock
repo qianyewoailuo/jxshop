@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "84db3a32ee88f50b27e58de3cc000ef1",
+    "content-hash": "9bd1df0611784aa8637dca12483b9f5c",
     "packages": [
         {
             "name": "guzzlehttp/guzzle",
@@ -211,6 +211,55 @@
                 "url"
             ],
             "time": "2019-04-01T06:40:32+00:00"
+        },
+        {
+            "name": "kiddyu/beanbun",
+            "version": "dev-master",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/kiddyuchina/Beanbun.git",
+                "reference": "696a9681b7bc0425af7a783176dad43ab613fdc8"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/kiddyuchina/Beanbun/zipball/696a9681b7bc0425af7a783176dad43ab613fdc8",
+                "reference": "696a9681b7bc0425af7a783176dad43ab613fdc8",
+                "shasum": "",
+                "mirrors": [
+                    {
+                        "url": "https://dl.laravel-china.org/%package%/%reference%.%type%",
+                        "preferred": true
+                    }
+                ]
+            },
+            "require": {
+                "guzzlehttp/guzzle": "^6.0",
+                "php": ">=5.5.0",
+                "workerman/workerman": "^3.3"
+            },
+            "type": "application",
+            "autoload": {
+                "psr-4": {
+                    "Beanbun\\": "src/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Kidd Yu",
+                    "email": "58631254@qq.com"
+                }
+            ],
+            "description": "Beanbun 是用 PHP 编写的多进程网络爬虫框架，具有良好的开放性、高可扩展性",
+            "keywords": [
+                "crawler",
+                "scraper",
+                "spider"
+            ],
+            "time": "2018-04-25T04:15:14+00:00"
         },
         {
             "name": "monolog/monolog",
@@ -924,6 +973,58 @@
             "time": "2019-02-06T07:57:58+00:00"
         },
         {
+            "name": "workerman/workerman",
+            "version": "v3.5.19",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/walkor/Workerman.git",
+                "reference": "4e5c24073b431fd950287efbfb5cc9b4c0fc7367"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/walkor/Workerman/zipball/4e5c24073b431fd950287efbfb5cc9b4c0fc7367",
+                "reference": "4e5c24073b431fd950287efbfb5cc9b4c0fc7367",
+                "shasum": "",
+                "mirrors": [
+                    {
+                        "url": "https://dl.laravel-china.org/%package%/%reference%.%type%",
+                        "preferred": true
+                    }
+                ]
+            },
+            "require": {
+                "php": ">=5.3"
+            },
+            "suggest": {
+                "ext-event": "For better performance. "
+            },
+            "type": "library",
+            "autoload": {
+                "psr-4": {
+                    "Workerman\\": "./"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "walkor",
+                    "email": "walkor@workerman.net",
+                    "homepage": "http://www.workerman.net",
+                    "role": "Developer"
+                }
+            ],
+            "description": "An asynchronous event driven PHP framework for easily building fast, scalable network applications.",
+            "homepage": "http://www.workerman.net",
+            "keywords": [
+                "asynchronous",
+                "event-loop"
+            ],
+            "time": "2019-04-05T10:35:31+00:00"
+        },
+        {
             "name": "yansongda/pay",
             "version": "dev-master",
             "source": {
@@ -1091,7 +1192,8 @@
     "minimum-stability": "dev",
     "stability-flags": {
         "zane/utils": 20,
-        "yansongda/pay": 20
+        "yansongda/pay": 20,
+        "kiddyu/beanbun": 20
     },
     "prefer-stable": false,
     "prefer-lowest": false,

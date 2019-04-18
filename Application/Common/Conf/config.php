@@ -24,7 +24,7 @@ return array(
 	'DB_PORT'		=>  '3306',         	// 端口
 	'DB_PREFIX'		=>  'jx_',         		// 数据库表前缀
 	/* 3.开启TP自带的开发者工具 */
-	'SHOW_PAGE_TRACE' => false,				// true开启调试工具，false关闭
+	'SHOW_PAGE_TRACE' => true,				// true开启调试工具，false关闭
 
 	//session设置
 	'SESSION_OPTIONS' => array(

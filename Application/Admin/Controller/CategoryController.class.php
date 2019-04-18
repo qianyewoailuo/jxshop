@@ -4,7 +4,8 @@ namespace Admin\Controller;
 //字符编码
 header('Content-type:text/html;charset=utf-8');
 //自定义分类控制器
-class CategoryController extends CommonController{
+class CategoryController extends CommonController
+{
     //实现分类的商品添加业务逻辑
     public function add()
     {

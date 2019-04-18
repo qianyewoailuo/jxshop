@@ -6,6 +6,7 @@
     "minimum-stability": "dev",
     "require": {
         "zane/utils": "dev-master",
-        "yansongda/pay": "dev-master"
+        "yansongda/pay": "dev-master",
+        "kiddyu/beanbun": "dev-master"
     }
 }
